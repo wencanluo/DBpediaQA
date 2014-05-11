@@ -1,4 +1,5 @@
 # -*- coding:utf8 -*-
+#chinese name entity recognition using http://www.ltp-cloud.com/intro/en/#srl
 import urllib2
 import json
 
@@ -13,5 +14,13 @@ def getSRL(text=''):
     content = result.read()
     return content
 
+def getNER(text=''):
+    format = 'json'
+    pattern = 'ner'
+    result = urllib2.urlopen("%sapi_key=%s&text=%s&format=%s&pattern=%s" % (url_get_base,api_key,text,format,pattern))
+    #print type(result)
+    content = result.read()
+    return content
+
 if __name__ == '__main__':
-	print getSRL('我是中国人')
+	print getNER('我是中国人')

@@ -75,13 +75,39 @@ def getSRL(input, output):
     fp = codecs.open(output, 'wb', 'utf8')
     json.dump(r, fp)
     fp.close()
+    
+def getNER(input, output):
+    reload(sys)
+    sys.setdefaultencoding('utf8')
+    
+    newtag1 = '<string lang="zh"><![CDATA['
+    etag1 = ']]></string>'
+    
+    lines = fio.readfile(input)
+    
+    lr = [] #list for the json result
+    
+    for line in lines:
+        line = line.rstrip()
+        
+        if line.startswith(newtag1):
+            s = getsubstring(line,newtag1,etag1)
+            print s
+            r = slpSRL.getNER(s)
+            jr = json.loads(r, encoding = 'utf-8')
+            lr.append(jr)
+    
+    fp = codecs.open(output, 'wb', 'utf8')
+    json.dump(lr, fp)
+    fp.close()
 
 if __name__ == '__main__':
     #input = '../../benchmark/qald4/qald-4_multilingual_train_withanswers_zh.xml'
-    #output = '../../benchmark/qald4/qald-4_multilingual_train_withanswers_zh_srl.json'
+    #output = '../../benchmark/qald4/qald-4_multilingual_train_withanswers_zh_ner.json'
     
     input = '../../benchmark/qald4/qald-4_multilingual_test_questions_zh.xml'
-    output = '../../benchmark/qald4/qald-4_multilingual_test_questions_zh_srl.json'
+    output = '../../benchmark/qald4/qald-4_multilingual_test_questions_zh_ner.json'
     
     #translate(input, output)
-    getSRL(input, output)
+    #getSRL(input, output)
+    getNER(input, output)
