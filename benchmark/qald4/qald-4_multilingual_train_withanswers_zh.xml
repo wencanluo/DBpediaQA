@@ -9023,7 +9023,7 @@ WHERE {
 
 <question aggregation="false" answertype="resource" id="82" onlydbo="true">
 <string lang="en"><![CDATA[In which programming language is GIMP written?]]></string>
-<string lang="zh"><![CDATA[GIMP是那种编程语言写的？]]></string>
+<string lang="zh"><![CDATA[GIMP是哪种编程语言写的？]]></string>
 <string lang="de"><![CDATA[In welcher Programmiersprache wurde GIMP geschrieben?]]></string>
 <string lang="es"><![CDATA[¿En qué lenguaje de programación esta programado GIMP?]]></string>
 <string lang="it"><![CDATA[In quale linguaggio di programmazione è scritto GIMP?]]></string>
@@ -9434,7 +9434,7 @@ OFFSET 1 LIMIT 1]]></query>
 
 <question aggregation="true" answertype="resource" id="180" onlydbo="true">
 <string lang="en"><![CDATA[Give me all books by William Goldman with more than 300 pages.]]></string>
-<string lang="zh"><![CDATA[所有由威廉高盛写的并且有300多页的书。]]></string>
+<string lang="zh"><![CDATA[所有由威廉高盛写的并且有三百多页的书。]]></string>
 <string lang="de"><![CDATA[Gib mir alle Bücher von William Goldman mit mehr als 300 Seiten.]]></string>
 <string lang="es"><![CDATA[Dame todos los libros de Wiliam Goldman con más de 300 páginas.]]></string>
 <string lang="it"><![CDATA[Dammi tutti i libri di Wiliam Goldman con più di 300 pagine.]]></string>
@@ -9442,7 +9442,7 @@ OFFSET 1 LIMIT 1]]></query>
 <string lang="nl"><![CDATA[Geef alle boeken van William Goldman met meer dan 300 pagina's.]]></string>
 <string lang="ro"><![CDATA[Dă-mi toate carțile de William Glodman cu mai mult de 300 de pagini.]]></string>
 <keywords lang="en"><![CDATA[book, William Goldman, pages, more than 300]]></keywords>
-<keywords lang="zh"><![CDATA[书中，威廉·戈德曼，页，300多]]></keywords>
+<keywords lang="zh"><![CDATA[书中，威廉·戈德曼，页，三百多]]></keywords>
 <keywords lang="de"><![CDATA[Buch, William Goldman, Seiten, mehr als 300]]></keywords>
 <keywords lang="es"><![CDATA[libro, William Goldman, más de 300 páginas]]></keywords>
 <keywords lang="it"><![CDATA[libro, Wiliam Goldman, pagine, più di 300]]></keywords>
