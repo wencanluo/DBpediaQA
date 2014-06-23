@@ -1,0 +1,50 @@
+所有 的 太空人 。
+<entity>哥伦比亚</entity> 说 有 多少 种 语言 ？
+哪个 诗人 写 的 书 最 多 ？
+有 多少 种 编程 语言 ？
+<entity>荷兰</entity> 所有 的 党派 。
+<entity>卡罗朱利安尼</entity> 什么 时候 被 枪杀 ？
+<entity>伊萨尔河</entity> 流入 某个 湖 么 ？
+哪些 河流 流入 <entity>德国湖</entity> ？
+木星 最 轻 的 卫星 有 多 重 ？
+谁 是 最 年轻 的 飞镖 选手 ？
+所以 已经 灭绝 的 动物 。
+战争 与 和平 有 多少 页 ？
+做 萝卜 蛋糕 需要 哪些 配料 ？
+最 常见 的 死亡 原因 是 什么 ？
+<entity>汤姆·克鲁斯</entity> 和 谁 结 过 婚 ？
+<entity>亚特兰大</entity> <entity>猎鹰队</entity> 的 最高 的 球员 是 谁 ？
+跨度 最 长 的 桥梁 是 哪个 ？
+所有 由 <entity>史蒂芬·斯皮尔伯格</entity> 出品 的 并且 预算 至少 8000万 美元 的 电影 。
+可口可乐 是 一 种 饮料 么 ？
+哪个 演员 演 了 最 多 的 电影 ？
+<entity>巴赫</entity> 是 在 哪里 出生 的 ？
+那 部蒂姆·伯顿 的 电影 有 最高 的 预算 ？
+<entity>亚伯拉罕·林肯</entity> 的 死 的 地方 有 ​​ 一个 网站 么 ？
+谁 是 第四 年轻 的 MVP 的 篮球 运动员 ？
+根据 IGN 的 排名 ， 前 10 名 动作 角色 扮演 视频 游戏 是 哪些 ？
+所有 出生 在 <entity>柏林</entity> 的 演员 。
+所有 1950年 以后 出生 在 <entity>巴黎</entity> 的 演员 。
+<entity>巴西</entity> 在 国际 足联 世界 排名 最低 的 排名 是 第几 ？
+所有 <entity>澳大利亚</entity> 金属 核乐队 。
+什么 时候 是 万圣节 ？
+<entity>加拿大</entity> 最 大 的 城市 有 多少 居民 ？
+哪些 国家 可以 支付 <entity>西非</entity> 法郎 ？
+所有 <entity>喜马拉雅山</entity> 经过 的 国家 的 首都 。
+谁 第一 个 登 上 <entity>珠穆朗玛峰</entity> ？
+三 个 舞者 的 画家 属于 哪个 艺术 流派 ？
+谁 继承 了 <entity>约翰·保罗</entity> 二 世 ？
+<entity>亚历克·吉尼斯</entity> 最新 的 电影 是 什么 ？
+<entity>詹姆斯·邦德</entity> 有 多少 电影 ？
+哪个 演员 扮演 了 楚巴卡 ？
+<entity>李小龙</entity> 的 孙子 是 谁 。
+所有 赢得 了 <entity>诺贝尔</entity> 文学奖 的 作家 。
+<entity>牛津</entity> <entity>大学</entity> 的 官方 颜色 是 什么 ？
+所有 的 <entity>瑞典</entity> 海洋学家 。
+<entity>普莱西德湖</entity> 有 多 深 ？
+<entity>詹姆斯·邦德</entity> 结婚 了 吗 ？
+哪些 航天 飞行器 从 <entity>拜科努尔</entity> 发射 ？
+所有 叫 <entity>鲍德温</entity> 的 演员 。
+CPU 是 什么 的 简称 ？
+披头士 录制 他们 的 第一 张 专辑 的 工作室 叫 什么 ？
+<entity>菲尔普斯</entity> 在 2008年 奥运会 夺 了 多少 枚 金牌 ？
