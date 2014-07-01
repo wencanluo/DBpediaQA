@@ -1,0 +1,9 @@
+/src/chinesebenchmark/*.pyc
+/src/chinesebenchmark/.project
+/src/chinesebenchmark/.pydevproject
+/benchmark/qald4/qald-4_multilingual_train.xml
+/benchmark/qald4/qald-4_multilingual_train_withanswers.xml
+/benchmark/qald4/qald-4.pdf
+/benchmark/qald4/qald-4_multilingual_test_questions.xml
+/src/chinesebenchmark/en_zh.pickle
+/src/chinesebenchmark/en_zh.txt

@@ -24,6 +24,23 @@ def getNEL(text = ""):
     conn.close()
     return data
 
+def extractDisambiguationLink(data):
+    '''extract the dictionary given the data returned by Agistis
+    @param data: string
+    '''
+    links = {}
+    
+    try:
+        data = json.loads(data, encoding = 'utf-8')
+        for entity in data:
+            name = entity['namedEntity']
+            link = entity['disambiguatedURL']
+            links[name] = link
+    except Exception:
+        pass
+    
+    return links
+
 def getDisambiguate(input, output):
     reload(sys)
     sys.setdefaultencoding('utf8')
@@ -44,8 +61,10 @@ if __name__ == '__main__':
     #input = '../../benchmark/qald4/qald-4_multilingual_train_withanswers_ner.txt'
     #output = '../../benchmark/qald4/qald-4_multilingual_train_withanswers_zh_disambiguation.txt'
     
-    input = '../../benchmark/qald4/qald-4_multilingual_test_questions_zh_ner.txt'
-    output = '../../benchmark/qald4/qald-4_multilingual_test_questions_zh_disambigution.txt'
-    #getNEL('我 是 <entity>中国</entity> 人')
+    #input = '../../benchmark/qald4/qald-4_multilingual_test_questions_zh_ner.txt'
+    #output = '../../benchmark/qald4/qald-4_multilingual_test_questions_zh_disambigution.txt'
+    data = getNEL('我 是 <entity>中国</entity> 人')
+    links = extractDisambiguationLink(data)
+    print links
     
-    getDisambiguate(input, output)
+    #getDisambiguate(input, output)

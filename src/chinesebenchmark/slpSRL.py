@@ -39,5 +39,5 @@ def parseNER(text=''):
 
 if __name__ == '__main__':
 	#print getNER('我是中国人')
-	print parseNER('我是中国人')
+	print parseNER('德国的哪些州是由社會民主黨统治？')
     
