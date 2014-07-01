@@ -8,6 +8,76 @@ import json
 import chinesebenchmark
 import xml.etree.ElementTree as ET
 
+def getQuestionKeyword(lines, question):
+    k = -1
+    for i, line in enumerate(lines):
+        line = line.rstrip()
+        
+        if line == question:
+            k = i + 1
+            break
+    
+    if k==-1:
+        print line, question
+        return None, None
+    
+    q = None
+    keyword = None
+    
+    i = k
+    while i < len(lines):
+        line = lines[i].rstrip()
+        i = i + 1
+        if line.startswith('<string lang="zh"><![CDATA['):
+            q = line
+            break
+    
+    i = k
+    while i < len(lines):
+        line = lines[i].rstrip()
+        i = i + 1
+        if line.startswith('<keywords lang="zh"><![CDATA['):
+            keyword = line
+            break
+        
+    return q, keyword        
+    
+def CombineTwoXML(input1, input2, output):
+    reload(sys)
+    sys.setdefaultencoding('utf8')
+    
+    tag1 = '<string lang="en"><![CDATA['
+    newtag1 = '<string lang="zh"><![CDATA['
+    etag1 = ']]></string>'
+    tag2 = '<keywords lang="en"><![CDATA['
+    newtag2 = '<keywords lang="zh"><![CDATA['
+    etag2 = ']]></keywords>'
+    
+    SavedStdOut = sys.stdout
+    sys.stdout = codecs.open(output, 'wb', 'utf8')
+    
+    lines = fio.readfile(input1)
+    lines2 = fio.readfile(input2)
+    
+    M = len(lines)
+    kM = 0
+    
+    for line in lines:
+        line = line.rstrip()
+        print line
+        
+        if line.startswith('<question '):
+            question = line
+            que, keyword = getQuestionKeyword(lines2, line)
+        
+        if line.startswith(tag1):
+            print que
+        
+        if line.startswith(tag2):
+            print keyword
+            
+    sys.stdout = SavedStdOut
+
 def GetLink(query):
     links = {}
     
@@ -84,12 +154,19 @@ def getNELCorrectLabel(input, output):
     tree.write(output, encoding = 'utf8')
     
 if __name__ == '__main__':
-    input = '../../benchmark/qald4/qald-4_multilingual_train_withanswers_zh.xml'
+    #input = '../../benchmark/qald4/qald-4_multilingual_train_withanswers_zh.xml'
     #output = '../../benchmark/qald4/qald-4_multilingual_train_withanswers_zh_ner.json'
     
     #input = '../../benchmark/qald4/qald-4_multilingual_test_questions_zh.xml'
     #output = '../../benchmark/qald4/qald-4_multilingual_test_questions_zh_ner.json'
     
-    output = '../../benchmark/qald4/qald-4_multilingual_train_withanswers_label.xml'
+    #output = '../../benchmark/qald4/qald-4_multilingual_train_withanswers_label.xml'
     
+    #getNELCorrectLabel(input, output)
+    
+    #input1 = '../../benchmark/qald4/qald-4_multilingual_test_withanswers.xml'
+    #input2 = '../../benchmark/qald4/qald-4_multilingual_test_questions_zh.xml'
+    input = '../../benchmark/qald4/qald-4_multilingual_test_withanswers_zh.xml'
+    output = '../../benchmark/qald4/qald-4_multilingual_test_withanswers_label.xml'
+    #CombineTwoXML(input1, input2, output)
     getNELCorrectLabel(input, output)

@@ -50,7 +50,7 @@ def getCorrectNERInput(input, output):
     tree.write(output, encoding = 'utf8')
     
 if __name__ == '__main__':
-    input = '../../benchmark/qald4/qald-4_multilingual_train_withanswers_linklabel.xml'
-    output = '../../benchmark/qald4/qald-4_multilingual_train_withanswers_linklabel_ner.xml'
+    input = '../../benchmark/qald4/qald-4_multilingual_test_withanswers_linklabel.xml'
+    output = '../../benchmark/qald4/qald-4_multilingual_test_withanswers_linklabel_ner.xml'
     
     getCorrectNERInput(input, output)

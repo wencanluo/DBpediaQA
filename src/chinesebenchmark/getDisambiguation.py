@@ -65,9 +65,9 @@ def getDisambituationWithAutomaticNERInput(input, output):
     tree.write(output, encoding = 'utf8')
     
 if __name__ == '__main__':
-    input = '../../benchmark/qald4/qald-4_multilingual_train_withanswers_linklabel_ner.xml'
-    output = '../../benchmark/qald4/qald-4_multilingual_train_withanswers_linklabel_ner_disambigutation.xml'
-    output2 = '../../benchmark/qald4/qald-4_multilingual_train_withanswers_linklabel_ner_disambigutation_auto.xml'
+    input = '../../benchmark/qald4/qald-4_multilingual_test_withanswers_linklabel_ner.xml'
+    output = '../../benchmark/qald4/qald-4_multilingual_test_withanswers_linklabel_ner_disambigutation.xml'
+    output2 = '../../benchmark/qald4/qald-4_multilingual_test_withanswers_linklabel_ner_disambigutation_auto.xml'
     
     #getDisambituationWithCorrectNERInput(input, output)
     getDisambituationWithAutomaticNERInput(input, output2)
