@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding/chinesebenchmark.py=utf-8
+encoding/disambiguate.py=utf-8
+encoding/evaluation.py=utf-8
+encoding/gTranslate.py=latin1
+encoding/getCorrectNERInput.py=utf-8
+encoding/getDisambiguation.py=utf-8
+encoding/getNELCorrectLabel.py=utf-8
+encoding/mappingTranslator.py=utf-8
+encoding/slpSRL.py=utf8
