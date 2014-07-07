@@ -80,7 +80,7 @@ class MappingTranslator:
         
         sys.stdout = SavedStdOut
     
-    def translateLabels(self):
+    def translateLabels1(self):
         # read the instance type
         input = self.dataDirectory + "/" + self.outputLangaugeTag + "/labels_"+self.outputLangaugeTag+".ttl.old"
         output = self.dataDirectory + "/" + self.outputLangaugeTag + "/labels_"+self.outputLangaugeTag+".ttl"
@@ -96,6 +96,33 @@ class MappingTranslator:
         
         sys.stdout = SavedStdOut
     
+    def translateLabels(self):
+        
+        picklename = "en_zh"
+        if not os.path.isfile(picklename+'.pickle'):
+            self.saveMapping(picklename)
+    
+        dict = fio.loadPickle(picklename)
+        
+        # read the label type
+        input = self.dataDirectory + "/" + self.inputLangaugeTag + "/labels_"+self.inputLangaugeTag+".ttl"
+        output = self.dataDirectory + "/" + self.outputLangaugeTag + "/labels_"+self.outputLangaugeTag+".ttl"
+        
+        SavedStdOut = sys.stdout
+        sys.stdout = codecs.open(output, 'wb', 'utf8')
+    
+        with open(input, 'r') as f:
+            for line in f:
+                g = re.search("(<http://dbpedia\.org/resource/)(.*)(>\s*<.*>\s*\")(.*\"@en\s*.)", line)
+                if g != None:
+                    try:
+                        if g.group(2) not in dict: continue
+                        print '<http://dbpedia.org/resource/' + dict[g.group(2)] + g.group(3) + dict[g.group(2)] + "\"@zh ."
+                    except Exception:
+                        continue
+        
+        sys.stdout = SavedStdOut
+        
     def translateRedirectsTransitive(self):
         # read the instance type
         input = self.dataDirectory + "/" + self.outputLangaugeTag + "/redirects_transitive_"+self.outputLangaugeTag+".ttl.old"
@@ -179,6 +206,6 @@ if __name__ == '__main__':
     #trans.translateInstanceType()
     #trans.translateMppingbasedproperties()
     #trans.translateSpecificMappingbasedProperties()
-    trans.translateLabels()
+    #trans.translateLabels()
     trans.translateRedirectsTransitive()
     

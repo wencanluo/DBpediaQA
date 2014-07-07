@@ -66,8 +66,8 @@ def getDisambituationWithAutomaticNERInput(input, output):
     
 if __name__ == '__main__':
     input = '../../benchmark/qald4/qald-4_multilingual_test_withanswers_linklabel_ner.xml'
-    output = '../../benchmark/qald4/qald-4_multilingual_test_withanswers_linklabel_ner_disambigutation.xml'
-    output2 = '../../benchmark/qald4/qald-4_multilingual_test_withanswers_linklabel_ner_disambigutation_auto.xml'
+    output = '../../benchmark/qald4/qald-4_multilingual_test_withanswers_linklabel_ner_disambigutation2.xml'
+    output2 = '../../benchmark/qald4/qald-4_multilingual_test_withanswers_linklabel_ner_disambigutation_auto2.xml'
     
-    #getDisambituationWithCorrectNERInput(input, output)
-    getDisambituationWithAutomaticNERInput(input, output2)
+    getDisambituationWithCorrectNERInput(input, output)
+    #getDisambituationWithAutomaticNERInput(input, output2)

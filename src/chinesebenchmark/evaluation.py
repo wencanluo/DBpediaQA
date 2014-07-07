@@ -57,10 +57,10 @@ def getDisambituationAccuracy(input):
     print 'Train', '\t', total_count,'\t', correct_sentence#, '\t',empty
     
 if __name__ == '__main__':
-    input1 = '../../benchmark/qald4/qald-4_multilingual_train_withanswers_linklabel_ner_disambigutation.xml'
-    input2 = '../../benchmark/qald4/qald-4_multilingual_train_withanswers_linklabel_ner_disambigutation_auto.xml'
+    #input1 = '../../benchmark/qald4/qald-4_multilingual_train_withanswers_linklabel_ner_disambigutation.xml'
+    #input2 = '../../benchmark/qald4/qald-4_multilingual_train_withanswers_linklabel_ner_disambigutation_auto.xml'
     
-    #input1 = '../../benchmark/qald4/qald-4_multilingual_test_withanswers_linklabel_ner_disambigutation.xml'
-    #input2 = '../../benchmark/qald4/qald-4_multilingual_test_withanswers_linklabel_ner_disambigutation_auto.xml'
+    input1 = '../../benchmark/qald4/qald-4_multilingual_test_withanswers_linklabel_ner_disambigutation2.xml'
+    input2 = '../../benchmark/qald4/qald-4_multilingual_test_withanswers_linklabel_ner_disambigutation_auto.xml'
     
     getDisambituationAccuracy(input1)
