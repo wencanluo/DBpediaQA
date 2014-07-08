@@ -1,118 +1,114 @@
-"D:\Program Files\Java\jdk1.7.0_51\bin\java" -Didea.launcher.port=7536 "-Didea.launcher.bin.path=D:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.0.4\bin" -Dfile.encoding=UTF-8 -classpath "D:\Program Files\Java\jdk1.7.0_51\jre\lib\charsets.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\deploy.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\javaws.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\jce.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\jfr.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\jfxrt.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\jsse.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\management-agent.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\plugin.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\resources.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\rt.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\ext\access-bridge-64.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\ext\dnsns.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\ext\jaccess.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\ext\localedata.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\ext\sunec.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\ext\sunjce_provider.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\ext\sunmscapi.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\ext\zipfs.jar;E:\project\gsoc2014\AutoSPARQL\algorithm-tbsl\target\test-classes;E:\project\gsoc2014\AutoSPARQL\algorithm-tbsl\target\classes;C:\Users\bacy\.m2\repository\junit\junit\4.8.1\junit-4.8.1.jar;C:\Users\bacy\.m2\repository\org\apache\solr\solr-solrj\4.8.0\solr-solrj-4.8.0.jar;C:\Users\bacy\.m2\repository\commons-io\commons-io\2.1\commons-io-2.1.jar;C:\Users\bacy\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Users\bacy\.m2\repository\org\apache\httpcomponents\httpclient\4.2.6\httpclient-4.2.6.jar;C:\Users\bacy\.m2\repository\org\apache\httpcomponents\httpcore\4.3\httpcore-4.3.jar;C:\Users\bacy\.m2\repository\org\apache\httpcomponents\httpmime\4.3.1\httpmime-4.3.1.jar;C:\Users\bacy\.m2\repository\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;C:\Users\bacy\.m2\repository\org\codehaus\woodstox\wstx-asl\3.2.7\wstx-asl-3.2.7.jar;C:\Users\bacy\.m2\repository\org\noggit\noggit\0.5\noggit-0.5.jar;C:\Users\bacy\.m2\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-analyzers-common\4.8.0\lucene-analyzers-common-4.8.0.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-core\4.8.0\lucene-core-4.8.0.jar;C:\Users\bacy\.m2\repository\com\memetix\microsoft-translator-java-api\0.6.2\microsoft-translator-java-api-0.6.2.jar;C:\Users\bacy\.m2\repository\com\googlecode\json-simple\json-simple\1.1\json-simple-1.1.jar;E:\project\gsoc2014\AutoSPARQL\commons\target\classes;C:\Users\bacy\.m2\repository\edu\mit\jwi\2.3.3\jwi-2.3.3.jar;C:\Users\bacy\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;C:\Users\bacy\.m2\repository\edu\stanford\nlp\stanford-corenlp\1.3.4\stanford-corenlp-1.3.4.jar;C:\Users\bacy\.m2\repository\xom\xom\1.2.5\xom-1.2.5.jar;C:\Users\bacy\.m2\repository\xml-apis\xml-apis\1.3.03\xml-apis-1.3.03.jar;C:\Users\bacy\.m2\repository\xerces\xercesImpl\2.8.0\xercesImpl-2.8.0.jar;C:\Users\bacy\.m2\repository\xalan\xalan\2.7.0\xalan-2.7.0.jar;C:\Users\bacy\.m2\repository\joda-time\joda-time\2.1\joda-time-2.1.jar;C:\Users\bacy\.m2\repository\de\jollyday\jollyday\0.4.7\jollyday-0.4.7.jar;C:\Users\bacy\.m2\repository\javax\xml\bind\jaxb-api\2.2.7\jaxb-api-2.2.7.jar;C:\Users\bacy\.m2\repository\edu\stanford\nlp\stanford-corenlp\1.3.4\stanford-corenlp-1.3.4-models.jar;C:\Users\bacy\.m2\repository\uk\ac\shef\wit\simmetrics\1.6.2\simmetrics-1.6.2.jar;C:\Users\bacy\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\bacy\.m2\repository\org\apache\opennlp\opennlp-tools\1.5.1-incubating\opennlp-tools-1.5.1-incubating.jar;C:\Users\bacy\.m2\repository\org\apache\opennlp\opennlp-maxent\3.0.1-incubating\opennlp-maxent-3.0.1-incubating.jar;C:\Users\bacy\.m2\repository\com\aliasi\lingpipe\4.0.1\lingpipe-4.0.1.jar;C:\Users\bacy\.m2\repository\org\annolab\tt4j\org.annolab.tt4j\1.0.16\org.annolab.tt4j-1.0.16.jar;C:\Users\bacy\.m2\repository\org\json\json\20090211\json-20090211.jar;C:\Users\bacy\.m2\repository\org\apache\solr\solr-core\4.8.0\solr-core-4.8.0.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-analyzers-kuromoji\4.8.0\lucene-analyzers-kuromoji-4.8.0.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-analyzers-phonetic\4.8.0\lucene-analyzers-phonetic-4.8.0.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-codecs\4.8.0\lucene-codecs-4.8.0.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-expressions\4.8.0\lucene-expressions-4.8.0.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-grouping\4.8.0\lucene-grouping-4.8.0.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-highlighter\4.8.0\lucene-highlighter-4.8.0.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-join\4.8.0\lucene-join-4.8.0.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-memory\4.8.0\lucene-memory-4.8.0.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-misc\4.8.0\lucene-misc-4.8.0.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-queries\4.8.0\lucene-queries-4.8.0.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-queryparser\4.3.1\lucene-queryparser-4.3.1.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-spatial\4.8.0\lucene-spatial-4.8.0.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-suggest\4.8.0\lucene-suggest-4.8.0.jar;C:\Users\bacy\.m2\repository\com\carrotsearch\hppc\0.5.2\hppc-0.5.2.jar;C:\Users\bacy\.m2\repository\com\google\guava\guava\17.0\guava-17.0.jar;C:\Users\bacy\.m2\repository\com\google\protobuf\protobuf-java\2.5.0\protobuf-java-2.5.0.jar;C:\Users\bacy\.m2\repository\com\googlecode\concurrentlinkedhashmap\concurrentlinkedhashmap-lru\1.2\concurrentlinkedhashmap-lru-1.2.jar;C:\Users\bacy\.m2\repository\com\spatial4j\spatial4j\0.4.1\spatial4j-0.4.1.jar;C:\Users\bacy\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\bacy\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\bacy\.m2\repository\commons-configuration\commons-configuration\1.8\commons-configuration-1.8.jar;C:\Users\bacy\.m2\repository\commons-fileupload\commons-fileupload\1.2.1\commons-fileupload-1.2.1.jar;C:\Users\bacy\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\bacy\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\bacy\.m2\repository\org\antlr\antlr-runtime\3.5\antlr-runtime-3.5.jar;C:\Users\bacy\.m2\repository\org\apache\hadoop\hadoop-annotations\2.2.0\hadoop-annotations-2.2.0.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.0.4\jre\lib\tools.jar;C:\Users\bacy\.m2\repository\org\apache\hadoop\hadoop-auth\2.2.0\hadoop-auth-2.2.0.jar;C:\Users\bacy\.m2\repository\org\apache\hadoop\hadoop-common\2.2.0\hadoop-common-2.2.0.jar;C:\Users\bacy\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.2.0\hadoop-hdfs-2.2.0.jar;C:\Users\bacy\.m2\repository\org\eclipse\jetty\jetty-continuation\8.1.10.v20130312\jetty-continuation-8.1.10.v20130312.jar;C:\Users\bacy\.m2\repository\org\eclipse\jetty\jetty-deploy\8.1.10.v20130312\jetty-deploy-8.1.10.v20130312.jar;C:\Users\bacy\.m2\repository\org\eclipse\jetty\jetty-http\8.1.10.v20130312\jetty-http-8.1.10.v20130312.jar;C:\Users\bacy\.m2\repository\org\eclipse\jetty\jetty-io\8.1.10.v20130312\jetty-io-8.1.10.v20130312.jar;C:\Users\bacy\.m2\repository\org\eclipse\jetty\jetty-jmx\8.1.10.v20130312\jetty-jmx-8.1.10.v20130312.jar;C:\Users\bacy\.m2\repository\org\eclipse\jetty\jetty-security\8.1.10.v20130312\jetty-security-8.1.10.v20130312.jar;C:\Users\bacy\.m2\repository\org\eclipse\jetty\jetty-server\8.1.10.v20130312\jetty-server-8.1.10.v20130312.jar;C:\Users\bacy\.m2\repository\org\eclipse\jetty\jetty-servlet\8.1.10.v20130312\jetty-servlet-8.1.10.v20130312.jar;C:\Users\bacy\.m2\repository\org\eclipse\jetty\jetty-util\8.1.10.v20130312\jetty-util-8.1.10.v20130312.jar;C:\Users\bacy\.m2\repository\org\eclipse\jetty\jetty-webapp\8.1.10.v20130312\jetty-webapp-8.1.10.v20130312.jar;C:\Users\bacy\.m2\repository\org\eclipse\jetty\jetty-xml\8.1.10.v20130312\jetty-xml-8.1.10.v20130312.jar;C:\Users\bacy\.m2\repository\org\eclipse\jetty\orbit\javax.servlet\3.0.0.v201112011016\javax.servlet-3.0.0.v201112011016.jar;C:\Users\bacy\.m2\repository\org\ow2\asm\asm\4.1\asm-4.1.jar;C:\Users\bacy\.m2\repository\org\ow2\asm\asm-commons\4.1\asm-commons-4.1.jar;C:\Users\bacy\.m2\repository\org\restlet\jee\org.restlet\2.1.1\org.restlet-2.1.1.jar;C:\Users\bacy\.m2\repository\org\restlet\jee\org.restlet.ext.servlet\2.1.1\org.restlet.ext.servlet-2.1.1.jar;C:\Users\bacy\.m2\repository\net\sourceforge\owlapi\owlapi-distribution\3.4\owlapi-distribution-3.4.jar;C:\Users\bacy\.m2\repository\net\sourceforge\owlapi\owlapi-contract\3.4\owlapi-contract-3.4.jar;C:\Users\bacy\.m2\repository\net\sourceforge\owlapi\owlapi-apibinding\3.4.5\owlapi-apibinding-3.4.5.jar;C:\Users\bacy\.m2\repository\net\sourceforge\owlapi\owlapi-api\3.4.5\owlapi-api-3.4.5.jar;C:\Users\bacy\.m2\repository\net\sourceforge\owlapi\owlapi-impl\3.4.5\owlapi-impl-3.4.5.jar;C:\Users\bacy\.m2\repository\net\sourceforge\owlapi\owlapi-parsers\3.4.5\owlapi-parsers-3.4.5.jar;C:\Users\bacy\.m2\repository\net\sourceforge\owlapi\owlapi-tools\3.4.5\owlapi-tools-3.4.5.jar;C:\Users\bacy\.m2\repository\org\openrdf\sesame\sesame-rio-ntriples\2.7.6\sesame-rio-ntriples-2.7.6.jar;C:\Users\bacy\.m2\repository\org\openrdf\sesame\sesame-model\2.7.6\sesame-model-2.7.6.jar;C:\Users\bacy\.m2\repository\org\openrdf\sesame\sesame-util\2.7.6\sesame-util-2.7.6.jar;C:\Users\bacy\.m2\repository\org\openrdf\sesame\sesame-rio-api\2.7.6\sesame-rio-api-2.7.6.jar;C:\Users\bacy\.m2\repository\org\openrdf\sesame\sesame-rio-datatypes\2.7.6\sesame-rio-datatypes-2.7.6.jar;C:\Users\bacy\.m2\repository\org\openrdf\sesame\sesame-rio-languages\2.7.6\sesame-rio-languages-2.7.6.jar;C:\Users\bacy\.m2\repository\org\apache\commons\commons-compress\1.0\commons-compress-1.0.jar;C:\Users\bacy\.m2\repository\org\dllearner\components-core\1.0-SNAPSHOT\components-core-1.0-SNAPSHOT.jar;C:\Users\bacy\.m2\repository\org\ini4j\ini4j\0.5.2\ini4j-0.5.2.jar;C:\Users\bacy\.m2\repository\mysql\mysql-connector-java\5.1.13\mysql-connector-java-5.1.13.jar;C:\Users\bacy\.m2\repository\com\clarkparsia\pellet\2.3.1\pellet-2.3.1.jar;C:\Users\bacy\.m2\repository\org\apache\jena\jena-arq\2.11.0\jena-arq-2.11.0.jar;C:\Users\bacy\.m2\repository\org\apache\jena\jena-core\2.11.0\jena-core-2.11.0.jar;C:\Users\bacy\.m2\repository\org\apache\jena\jena-iri\1.0.0\jena-iri-1.0.0.jar;C:\Users\bacy\.m2\repository\org\slf4j\jcl-over-slf4j\1.6.4\jcl-over-slf4j-1.6.4.jar;C:\Users\bacy\.m2\repository\org\apache\xmlbeans\xmlbeans\2.4.0\xmlbeans-2.4.0.jar;C:\Users\bacy\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\bacy\.m2\repository\com\google\code\factplusplus\factpp-owlapi\1.5.1\factpp-owlapi-1.5.1.jar;C:\Users\bacy\.m2\repository\net\sourceforge\owlapi\owllink\owllink\1.1.0\owllink-1.1.0.jar;C:\Users\bacy\.m2\repository\org\semanticweb\hermit\hermit\1.3.8\hermit-1.3.8.jar;C:\Users\bacy\.m2\repository\eu\trowl\trowl-core\1.0\trowl-core-1.0.jar;C:\Users\bacy\.m2\repository\com\jamonapi\jamon\2.7\jamon-2.7.jar;C:\Users\bacy\.m2\repository\net\sourceforge\dig\dig-xmlbeans\1.1\dig-xmlbeans-1.1.jar;C:\Users\bacy\.m2\repository\org\fuzzy\fuzzydl\1.0\fuzzydl-1.0.jar;C:\Users\bacy\.m2\repository\org\fuzzy\fuzzyowl\1.0\fuzzyowl-1.0.jar;C:\Users\bacy\.m2\repository\edu\northwestern\at\morphadorner\2009-04-30\morphadorner-2009-04-30.jar;C:\Users\bacy\.m2\repository\org\springframework\spring-beans\3.0.5.RELEASE\spring-beans-3.0.5.RELEASE.jar;C:\Users\bacy\.m2\repository\org\springframework\spring-core\3.0.5.RELEASE\spring-core-3.0.5.RELEASE.jar;C:\Users\bacy\.m2\repository\org\springframework\spring-asm\3.0.5.RELEASE\spring-asm-3.0.5.RELEASE.jar;C:\Users\bacy\.m2\repository\commons-pool\commons-pool\1.6\commons-pool-1.6.jar;C:\Users\bacy\.m2\repository\org\semanticweb\elk\elk-owlapi\0.4.1\elk-owlapi-0.4.1.jar;C:\Users\bacy\.m2\repository\org\apache\felix\org.osgi.core\1.0.0\org.osgi.core-1.0.0.jar;C:\Users\bacy\.m2\repository\org\semanticweb\elk\elk-owl-model\0.4.1\elk-owl-model-0.4.1.jar;C:\Users\bacy\.m2\repository\org\semanticweb\elk\elk-owl-implementation\0.4.1\elk-owl-implementation-0.4.1.jar;C:\Users\bacy\.m2\repository\org\semanticweb\elk\elk-util-hashing\0.4.1\elk-util-hashing-0.4.1.jar;C:\Users\bacy\.m2\repository\org\semanticweb\elk\elk-reasoner\0.4.1\elk-reasoner-0.4.1.jar;C:\Users\bacy\.m2\repository\org\semanticweb\elk\elk-util-collections\0.4.1\elk-util-collections-0.4.1.jar;C:\Users\bacy\.m2\repository\org\semanticweb\elk\elk-util-concurrent\0.4.1\elk-util-concurrent-0.4.1.jar;C:\Users\bacy\.m2\repository\org\semanticweb\elk\elk-util-logging\0.4.1\elk-util-logging-0.4.1.jar;C:\Users\bacy\.m2\repository\org\semanticweb\elk\elk-util-common\0.4.1\elk-util-common-0.4.1.jar;C:\Users\bacy\.m2\repository\org\semanticweb\elk\elk-util-io\0.4.1\elk-util-io-0.4.1.jar;C:\Users\bacy\.m2\repository\de\tudresden\inf\lat\cel\reasoner\0.5.1\reasoner-0.5.1.jar;C:\Users\bacy\.m2\repository\de\tudresden\inf\lat\cel\jsexp\0.1.0\jsexp-0.1.0.jar;C:\Users\bacy\.m2\repository\com\thoughtworks\xstream\xstream\1.4.3\xstream-1.4.3.jar;C:\Users\bacy\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\bacy\.m2\repository\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;C:\Users\bacy\.m2\repository\net\sf\kxml\kxml2-min\2.3.0\kxml2-min-2.3.0.jar;C:\Users\bacy\.m2\repository\org\aksw\jena-sparql-api\jena-sparql-api-core\2.10.0-8\jena-sparql-api-core-2.10.0-8.jar;C:\Users\bacy\.m2\repository\org\aksw\jena-sparql-api\jena-sparql-api-utils\2.10.0-8\jena-sparql-api-utils-2.10.0-8.jar;C:\Users\bacy\.m2\repository\org\aksw\commons\collections\0.7.2\collections-0.7.2.jar;C:\Users\bacy\.m2\repository\net\sourceforge\collections\collections-generic\4.01\collections-generic-4.01.jar;C:\Users\bacy\.m2\repository\org\aksw\commons\util\0.7.2\util-0.7.2.jar;C:\Users\bacy\.m2\repository\org\slf4j\slf4j-ext\1.6.0\slf4j-ext-1.6.0.jar;C:\Users\bacy\.m2\repository\ch\qos\cal10n\cal10n-api\0.7.2\cal10n-api-0.7.2.jar;C:\Users\bacy\.m2\repository\commons-validator\commons-validator\1.3.1\commons-validator-1.3.1.jar;C:\Users\bacy\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\bacy\.m2\repository\commons-digester\commons-digester\1.6\commons-digester-1.6.jar;C:\Users\bacy\.m2\repository\commons-collections\commons-collections\2.1\commons-collections-2.1.jar;C:\Users\bacy\.m2\repository\com\h2database\h2\1.2.143\h2-1.2.143.jar;C:\Users\bacy\.m2\repository\net\didion\jwnl\jwnl\1.4.1.RC2\jwnl-1.4.1.RC2.jar;C:\Users\bacy\.m2\repository\org\apache\commons\commons-math3\3.1.1\commons-math3-3.1.1.jar;C:\Users\bacy\.m2\repository\org\dllearner\components-ext\1.0-SNAPSHOT\components-ext-1.0-SNAPSHOT.jar;C:\Users\bacy\.m2\repository\org\aksw\commons\sparql\0.7.2\sparql-0.7.2.jar;C:\Users\bacy\.m2\repository\org\slf4j\slf4j-log4j12\1.6.4\slf4j-log4j12-1.6.4.jar;C:\Users\bacy\.m2\repository\lbj\library\1.0\library-1.0.jar;C:\Users\bacy\.m2\repository\lbj\core\1.0\core-1.0.jar;C:\Users\bacy\.m2\repository\lbj\ner\1.0\ner-1.0.jar;C:\Users\bacy\.m2\repository\jaws\core\1.0\core-1.0.jar;C:\Users\bacy\.m2\repository\org\xerial\sqlite-jdbc\3.7.2\sqlite-jdbc-3.7.2.jar;C:\Users\bacy\.m2\repository\jwnl\jwnl\1.3.3\jwnl-1.3.3.jar;C:\Users\bacy\.m2\repository\net\sf\jgrapht\jgrapht-core\0.9.0\jgrapht-core-0.9.0.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-sandbox\4.3.1\lucene-sandbox-4.3.1.jar;C:\Users\bacy\.m2\repository\jakarta-regexp\jakarta-regexp\1.4\jakarta-regexp-1.4.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.0.4\lib\idea_rt.jar" com.intellij.rt.execution.application.AppMain org.aksw.autosparql.tbsl.algorithm.Qald4Test
+"D:\Program Files\Java\jdk1.7.0_51\bin\java" -Didea.launcher.port=7539 "-Didea.launcher.bin.path=D:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.0.4\bin" -Dfile.encoding=UTF-8 -classpath "D:\Program Files\Java\jdk1.7.0_51\jre\lib\charsets.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\deploy.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\javaws.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\jce.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\jfr.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\jfxrt.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\jsse.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\management-agent.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\plugin.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\resources.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\rt.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\ext\access-bridge-64.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\ext\dnsns.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\ext\jaccess.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\ext\localedata.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\ext\sunec.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\ext\sunjce_provider.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\ext\sunmscapi.jar;D:\Program Files\Java\jdk1.7.0_51\jre\lib\ext\zipfs.jar;E:\project\gsoc2014\AutoSPARQL\algorithm-tbsl\target\test-classes;E:\project\gsoc2014\AutoSPARQL\algorithm-tbsl\target\classes;C:\Users\bacy\.m2\repository\junit\junit\4.8.1\junit-4.8.1.jar;C:\Users\bacy\.m2\repository\org\apache\solr\solr-solrj\4.8.0\solr-solrj-4.8.0.jar;C:\Users\bacy\.m2\repository\commons-io\commons-io\2.1\commons-io-2.1.jar;C:\Users\bacy\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Users\bacy\.m2\repository\org\apache\httpcomponents\httpclient\4.2.6\httpclient-4.2.6.jar;C:\Users\bacy\.m2\repository\org\apache\httpcomponents\httpcore\4.3\httpcore-4.3.jar;C:\Users\bacy\.m2\repository\org\apache\httpcomponents\httpmime\4.3.1\httpmime-4.3.1.jar;C:\Users\bacy\.m2\repository\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;C:\Users\bacy\.m2\repository\org\codehaus\woodstox\wstx-asl\3.2.7\wstx-asl-3.2.7.jar;C:\Users\bacy\.m2\repository\org\noggit\noggit\0.5\noggit-0.5.jar;C:\Users\bacy\.m2\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-analyzers-common\4.8.0\lucene-analyzers-common-4.8.0.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-core\4.8.0\lucene-core-4.8.0.jar;C:\Users\bacy\.m2\repository\com\memetix\microsoft-translator-java-api\0.6.2\microsoft-translator-java-api-0.6.2.jar;C:\Users\bacy\.m2\repository\com\googlecode\json-simple\json-simple\1.1\json-simple-1.1.jar;E:\project\gsoc2014\AutoSPARQL\commons\target\classes;C:\Users\bacy\.m2\repository\edu\mit\jwi\2.3.3\jwi-2.3.3.jar;C:\Users\bacy\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;C:\Users\bacy\.m2\repository\edu\stanford\nlp\stanford-corenlp\1.3.4\stanford-corenlp-1.3.4.jar;C:\Users\bacy\.m2\repository\xom\xom\1.2.5\xom-1.2.5.jar;C:\Users\bacy\.m2\repository\xml-apis\xml-apis\1.3.03\xml-apis-1.3.03.jar;C:\Users\bacy\.m2\repository\xerces\xercesImpl\2.8.0\xercesImpl-2.8.0.jar;C:\Users\bacy\.m2\repository\xalan\xalan\2.7.0\xalan-2.7.0.jar;C:\Users\bacy\.m2\repository\joda-time\joda-time\2.1\joda-time-2.1.jar;C:\Users\bacy\.m2\repository\de\jollyday\jollyday\0.4.7\jollyday-0.4.7.jar;C:\Users\bacy\.m2\repository\javax\xml\bind\jaxb-api\2.2.7\jaxb-api-2.2.7.jar;C:\Users\bacy\.m2\repository\edu\stanford\nlp\stanford-corenlp\1.3.4\stanford-corenlp-1.3.4-models.jar;C:\Users\bacy\.m2\repository\uk\ac\shef\wit\simmetrics\1.6.2\simmetrics-1.6.2.jar;C:\Users\bacy\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\bacy\.m2\repository\org\apache\opennlp\opennlp-tools\1.5.1-incubating\opennlp-tools-1.5.1-incubating.jar;C:\Users\bacy\.m2\repository\org\apache\opennlp\opennlp-maxent\3.0.1-incubating\opennlp-maxent-3.0.1-incubating.jar;C:\Users\bacy\.m2\repository\com\aliasi\lingpipe\4.0.1\lingpipe-4.0.1.jar;C:\Users\bacy\.m2\repository\org\annolab\tt4j\org.annolab.tt4j\1.0.16\org.annolab.tt4j-1.0.16.jar;C:\Users\bacy\.m2\repository\org\json\json\20090211\json-20090211.jar;C:\Users\bacy\.m2\repository\org\apache\solr\solr-core\4.8.0\solr-core-4.8.0.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-analyzers-kuromoji\4.8.0\lucene-analyzers-kuromoji-4.8.0.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-analyzers-phonetic\4.8.0\lucene-analyzers-phonetic-4.8.0.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-codecs\4.8.0\lucene-codecs-4.8.0.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-expressions\4.8.0\lucene-expressions-4.8.0.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-grouping\4.8.0\lucene-grouping-4.8.0.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-highlighter\4.8.0\lucene-highlighter-4.8.0.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-join\4.8.0\lucene-join-4.8.0.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-memory\4.8.0\lucene-memory-4.8.0.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-misc\4.8.0\lucene-misc-4.8.0.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-queries\4.8.0\lucene-queries-4.8.0.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-queryparser\4.3.1\lucene-queryparser-4.3.1.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-spatial\4.8.0\lucene-spatial-4.8.0.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-suggest\4.8.0\lucene-suggest-4.8.0.jar;C:\Users\bacy\.m2\repository\com\carrotsearch\hppc\0.5.2\hppc-0.5.2.jar;C:\Users\bacy\.m2\repository\com\google\guava\guava\17.0\guava-17.0.jar;C:\Users\bacy\.m2\repository\com\google\protobuf\protobuf-java\2.5.0\protobuf-java-2.5.0.jar;C:\Users\bacy\.m2\repository\com\googlecode\concurrentlinkedhashmap\concurrentlinkedhashmap-lru\1.2\concurrentlinkedhashmap-lru-1.2.jar;C:\Users\bacy\.m2\repository\com\spatial4j\spatial4j\0.4.1\spatial4j-0.4.1.jar;C:\Users\bacy\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\bacy\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\bacy\.m2\repository\commons-configuration\commons-configuration\1.8\commons-configuration-1.8.jar;C:\Users\bacy\.m2\repository\commons-fileupload\commons-fileupload\1.2.1\commons-fileupload-1.2.1.jar;C:\Users\bacy\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\bacy\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\bacy\.m2\repository\org\antlr\antlr-runtime\3.5\antlr-runtime-3.5.jar;C:\Users\bacy\.m2\repository\org\apache\hadoop\hadoop-annotations\2.2.0\hadoop-annotations-2.2.0.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.0.4\jre\lib\tools.jar;C:\Users\bacy\.m2\repository\org\apache\hadoop\hadoop-auth\2.2.0\hadoop-auth-2.2.0.jar;C:\Users\bacy\.m2\repository\org\apache\hadoop\hadoop-common\2.2.0\hadoop-common-2.2.0.jar;C:\Users\bacy\.m2\repository\org\apache\hadoop\hadoop-hdfs\2.2.0\hadoop-hdfs-2.2.0.jar;C:\Users\bacy\.m2\repository\org\eclipse\jetty\jetty-continuation\8.1.10.v20130312\jetty-continuation-8.1.10.v20130312.jar;C:\Users\bacy\.m2\repository\org\eclipse\jetty\jetty-deploy\8.1.10.v20130312\jetty-deploy-8.1.10.v20130312.jar;C:\Users\bacy\.m2\repository\org\eclipse\jetty\jetty-http\8.1.10.v20130312\jetty-http-8.1.10.v20130312.jar;C:\Users\bacy\.m2\repository\org\eclipse\jetty\jetty-io\8.1.10.v20130312\jetty-io-8.1.10.v20130312.jar;C:\Users\bacy\.m2\repository\org\eclipse\jetty\jetty-jmx\8.1.10.v20130312\jetty-jmx-8.1.10.v20130312.jar;C:\Users\bacy\.m2\repository\org\eclipse\jetty\jetty-security\8.1.10.v20130312\jetty-security-8.1.10.v20130312.jar;C:\Users\bacy\.m2\repository\org\eclipse\jetty\jetty-server\8.1.10.v20130312\jetty-server-8.1.10.v20130312.jar;C:\Users\bacy\.m2\repository\org\eclipse\jetty\jetty-servlet\8.1.10.v20130312\jetty-servlet-8.1.10.v20130312.jar;C:\Users\bacy\.m2\repository\org\eclipse\jetty\jetty-util\8.1.10.v20130312\jetty-util-8.1.10.v20130312.jar;C:\Users\bacy\.m2\repository\org\eclipse\jetty\jetty-webapp\8.1.10.v20130312\jetty-webapp-8.1.10.v20130312.jar;C:\Users\bacy\.m2\repository\org\eclipse\jetty\jetty-xml\8.1.10.v20130312\jetty-xml-8.1.10.v20130312.jar;C:\Users\bacy\.m2\repository\org\eclipse\jetty\orbit\javax.servlet\3.0.0.v201112011016\javax.servlet-3.0.0.v201112011016.jar;C:\Users\bacy\.m2\repository\org\ow2\asm\asm\4.1\asm-4.1.jar;C:\Users\bacy\.m2\repository\org\ow2\asm\asm-commons\4.1\asm-commons-4.1.jar;C:\Users\bacy\.m2\repository\org\restlet\jee\org.restlet\2.1.1\org.restlet-2.1.1.jar;C:\Users\bacy\.m2\repository\org\restlet\jee\org.restlet.ext.servlet\2.1.1\org.restlet.ext.servlet-2.1.1.jar;C:\Users\bacy\.m2\repository\net\sourceforge\owlapi\owlapi-distribution\3.4\owlapi-distribution-3.4.jar;C:\Users\bacy\.m2\repository\net\sourceforge\owlapi\owlapi-contract\3.4\owlapi-contract-3.4.jar;C:\Users\bacy\.m2\repository\net\sourceforge\owlapi\owlapi-apibinding\3.4.5\owlapi-apibinding-3.4.5.jar;C:\Users\bacy\.m2\repository\net\sourceforge\owlapi\owlapi-api\3.4.5\owlapi-api-3.4.5.jar;C:\Users\bacy\.m2\repository\net\sourceforge\owlapi\owlapi-impl\3.4.5\owlapi-impl-3.4.5.jar;C:\Users\bacy\.m2\repository\net\sourceforge\owlapi\owlapi-parsers\3.4.5\owlapi-parsers-3.4.5.jar;C:\Users\bacy\.m2\repository\net\sourceforge\owlapi\owlapi-tools\3.4.5\owlapi-tools-3.4.5.jar;C:\Users\bacy\.m2\repository\org\openrdf\sesame\sesame-rio-ntriples\2.7.6\sesame-rio-ntriples-2.7.6.jar;C:\Users\bacy\.m2\repository\org\openrdf\sesame\sesame-model\2.7.6\sesame-model-2.7.6.jar;C:\Users\bacy\.m2\repository\org\openrdf\sesame\sesame-util\2.7.6\sesame-util-2.7.6.jar;C:\Users\bacy\.m2\repository\org\openrdf\sesame\sesame-rio-api\2.7.6\sesame-rio-api-2.7.6.jar;C:\Users\bacy\.m2\repository\org\openrdf\sesame\sesame-rio-datatypes\2.7.6\sesame-rio-datatypes-2.7.6.jar;C:\Users\bacy\.m2\repository\org\openrdf\sesame\sesame-rio-languages\2.7.6\sesame-rio-languages-2.7.6.jar;C:\Users\bacy\.m2\repository\org\apache\commons\commons-compress\1.0\commons-compress-1.0.jar;C:\Users\bacy\.m2\repository\org\dllearner\components-core\1.0-SNAPSHOT\components-core-1.0-SNAPSHOT.jar;C:\Users\bacy\.m2\repository\org\ini4j\ini4j\0.5.2\ini4j-0.5.2.jar;C:\Users\bacy\.m2\repository\mysql\mysql-connector-java\5.1.13\mysql-connector-java-5.1.13.jar;C:\Users\bacy\.m2\repository\com\clarkparsia\pellet\2.3.1\pellet-2.3.1.jar;C:\Users\bacy\.m2\repository\org\apache\jena\jena-arq\2.11.0\jena-arq-2.11.0.jar;C:\Users\bacy\.m2\repository\org\apache\jena\jena-core\2.11.0\jena-core-2.11.0.jar;C:\Users\bacy\.m2\repository\org\apache\jena\jena-iri\1.0.0\jena-iri-1.0.0.jar;C:\Users\bacy\.m2\repository\org\slf4j\jcl-over-slf4j\1.6.4\jcl-over-slf4j-1.6.4.jar;C:\Users\bacy\.m2\repository\org\apache\xmlbeans\xmlbeans\2.4.0\xmlbeans-2.4.0.jar;C:\Users\bacy\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\bacy\.m2\repository\com\google\code\factplusplus\factpp-owlapi\1.5.1\factpp-owlapi-1.5.1.jar;C:\Users\bacy\.m2\repository\net\sourceforge\owlapi\owllink\owllink\1.1.0\owllink-1.1.0.jar;C:\Users\bacy\.m2\repository\org\semanticweb\hermit\hermit\1.3.8\hermit-1.3.8.jar;C:\Users\bacy\.m2\repository\eu\trowl\trowl-core\1.0\trowl-core-1.0.jar;C:\Users\bacy\.m2\repository\com\jamonapi\jamon\2.7\jamon-2.7.jar;C:\Users\bacy\.m2\repository\net\sourceforge\dig\dig-xmlbeans\1.1\dig-xmlbeans-1.1.jar;C:\Users\bacy\.m2\repository\org\fuzzy\fuzzydl\1.0\fuzzydl-1.0.jar;C:\Users\bacy\.m2\repository\org\fuzzy\fuzzyowl\1.0\fuzzyowl-1.0.jar;C:\Users\bacy\.m2\repository\edu\northwestern\at\morphadorner\2009-04-30\morphadorner-2009-04-30.jar;C:\Users\bacy\.m2\repository\org\springframework\spring-beans\3.0.5.RELEASE\spring-beans-3.0.5.RELEASE.jar;C:\Users\bacy\.m2\repository\org\springframework\spring-core\3.0.5.RELEASE\spring-core-3.0.5.RELEASE.jar;C:\Users\bacy\.m2\repository\org\springframework\spring-asm\3.0.5.RELEASE\spring-asm-3.0.5.RELEASE.jar;C:\Users\bacy\.m2\repository\commons-pool\commons-pool\1.6\commons-pool-1.6.jar;C:\Users\bacy\.m2\repository\org\semanticweb\elk\elk-owlapi\0.4.1\elk-owlapi-0.4.1.jar;C:\Users\bacy\.m2\repository\org\apache\felix\org.osgi.core\1.0.0\org.osgi.core-1.0.0.jar;C:\Users\bacy\.m2\repository\org\semanticweb\elk\elk-owl-model\0.4.1\elk-owl-model-0.4.1.jar;C:\Users\bacy\.m2\repository\org\semanticweb\elk\elk-owl-implementation\0.4.1\elk-owl-implementation-0.4.1.jar;C:\Users\bacy\.m2\repository\org\semanticweb\elk\elk-util-hashing\0.4.1\elk-util-hashing-0.4.1.jar;C:\Users\bacy\.m2\repository\org\semanticweb\elk\elk-reasoner\0.4.1\elk-reasoner-0.4.1.jar;C:\Users\bacy\.m2\repository\org\semanticweb\elk\elk-util-collections\0.4.1\elk-util-collections-0.4.1.jar;C:\Users\bacy\.m2\repository\org\semanticweb\elk\elk-util-concurrent\0.4.1\elk-util-concurrent-0.4.1.jar;C:\Users\bacy\.m2\repository\org\semanticweb\elk\elk-util-logging\0.4.1\elk-util-logging-0.4.1.jar;C:\Users\bacy\.m2\repository\org\semanticweb\elk\elk-util-common\0.4.1\elk-util-common-0.4.1.jar;C:\Users\bacy\.m2\repository\org\semanticweb\elk\elk-util-io\0.4.1\elk-util-io-0.4.1.jar;C:\Users\bacy\.m2\repository\de\tudresden\inf\lat\cel\reasoner\0.5.1\reasoner-0.5.1.jar;C:\Users\bacy\.m2\repository\de\tudresden\inf\lat\cel\jsexp\0.1.0\jsexp-0.1.0.jar;C:\Users\bacy\.m2\repository\com\thoughtworks\xstream\xstream\1.4.3\xstream-1.4.3.jar;C:\Users\bacy\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\bacy\.m2\repository\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;C:\Users\bacy\.m2\repository\net\sf\kxml\kxml2-min\2.3.0\kxml2-min-2.3.0.jar;C:\Users\bacy\.m2\repository\org\aksw\jena-sparql-api\jena-sparql-api-core\2.10.0-8\jena-sparql-api-core-2.10.0-8.jar;C:\Users\bacy\.m2\repository\org\aksw\jena-sparql-api\jena-sparql-api-utils\2.10.0-8\jena-sparql-api-utils-2.10.0-8.jar;C:\Users\bacy\.m2\repository\org\aksw\commons\collections\0.7.2\collections-0.7.2.jar;C:\Users\bacy\.m2\repository\net\sourceforge\collections\collections-generic\4.01\collections-generic-4.01.jar;C:\Users\bacy\.m2\repository\org\aksw\commons\util\0.7.2\util-0.7.2.jar;C:\Users\bacy\.m2\repository\org\slf4j\slf4j-ext\1.6.0\slf4j-ext-1.6.0.jar;C:\Users\bacy\.m2\repository\ch\qos\cal10n\cal10n-api\0.7.2\cal10n-api-0.7.2.jar;C:\Users\bacy\.m2\repository\commons-validator\commons-validator\1.3.1\commons-validator-1.3.1.jar;C:\Users\bacy\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\bacy\.m2\repository\commons-digester\commons-digester\1.6\commons-digester-1.6.jar;C:\Users\bacy\.m2\repository\commons-collections\commons-collections\2.1\commons-collections-2.1.jar;C:\Users\bacy\.m2\repository\com\h2database\h2\1.2.143\h2-1.2.143.jar;C:\Users\bacy\.m2\repository\net\didion\jwnl\jwnl\1.4.1.RC2\jwnl-1.4.1.RC2.jar;C:\Users\bacy\.m2\repository\org\apache\commons\commons-math3\3.1.1\commons-math3-3.1.1.jar;C:\Users\bacy\.m2\repository\org\dllearner\components-ext\1.0-SNAPSHOT\components-ext-1.0-SNAPSHOT.jar;C:\Users\bacy\.m2\repository\org\aksw\commons\sparql\0.7.2\sparql-0.7.2.jar;C:\Users\bacy\.m2\repository\org\slf4j\slf4j-log4j12\1.6.4\slf4j-log4j12-1.6.4.jar;C:\Users\bacy\.m2\repository\lbj\library\1.0\library-1.0.jar;C:\Users\bacy\.m2\repository\lbj\core\1.0\core-1.0.jar;C:\Users\bacy\.m2\repository\lbj\ner\1.0\ner-1.0.jar;C:\Users\bacy\.m2\repository\jaws\core\1.0\core-1.0.jar;C:\Users\bacy\.m2\repository\org\xerial\sqlite-jdbc\3.7.2\sqlite-jdbc-3.7.2.jar;C:\Users\bacy\.m2\repository\jwnl\jwnl\1.3.3\jwnl-1.3.3.jar;C:\Users\bacy\.m2\repository\net\sf\jgrapht\jgrapht-core\0.9.0\jgrapht-core-0.9.0.jar;C:\Users\bacy\.m2\repository\org\apache\lucene\lucene-sandbox\4.3.1\lucene-sandbox-4.3.1.jar;C:\Users\bacy\.m2\repository\jakarta-regexp\jakarta-regexp\1.4\jakarta-regexp-1.4.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.0.4\lib\idea_rt.jar" com.intellij.rt.execution.application.AppMain org.aksw.autosparql.tbsl.algorithm.Qald4Test
 Question4: What is the official color of the University of Oxford?
 Using cache directory C:\Users\bacy\AppData\Local\Temp\
 WordNetUnpacker.getUnpackedWordNetDir: using code source /E:/project/gsoc2014/AutoSPARQL/commons/target/classes/
 loading wordnet from E:\project\gsoc2014\AutoSPARQL\commons\target\classes\models\en\wordnet\dict
-1404737623351 - Error on direct access in adverb data file: check CR/LF endings
-1404737623355 - Error on direct access in verb data file: check CR/LF endings
-1404737623357 - Error on direct access in adjective data file: check CR/LF endings
-1404737623358 - Error on direct access in noun data file: check CR/LF endings
 Running template generation...
 Generated 16 templates:
+>> QUERY: SELECT ?y { ?y1 ?p1 ?y. ?y ?p0 ?y0. } 
+>> SLOTS: y0: RESOURCE {University}y1: RESOURCE {Oxford}p0: PROPERTY {}p1: PROPERTY {official color}
+>> QUERY: SELECT ?y { ?y0 ?p1 ?y. ?y ?p0 ?y1. } 
+>> SLOTS: y0: RESOURCE {Oxford}y1: RESOURCE {University}p0: PROPERTY {}p1: PROPERTY {official color}
+>> QUERY: SELECT ?y { ?y0 ?p1 ?y. ?y ?p0 ?y1. } 
+>> SLOTS: y0: RESOURCE {Oxford}y1: RESOURCE {University}p0: PROPERTY {}p1: PROPERTY {official color}
+>> QUERY: SELECT ?y { ?y0 ?p1 ?y. ?y ?p0 ?y1. } 
+>> SLOTS: y0: RESOURCE {Oxford}y1: RESOURCE {University}p0: PROPERTY {}p1: PROPERTY {official color}
+>> QUERY: SELECT ?y { ?y1 ?p1 ?y. ?y ?p0 ?y0. } 
+>> SLOTS: y0: RESOURCE {University}y1: RESOURCE {Oxford}p0: PROPERTY {}p1: PROPERTY {official color}
+>> QUERY: SELECT ?y { ?y0 ?p1 ?y. ?y ?p0 ?y1. } 
+>> SLOTS: y0: RESOURCE {University}y1: RESOURCE {Oxford}p0: SYMPROPERTY {of}p1: PROPERTY {official color}
+>> QUERY: SELECT ?y { ?y1 ?p0 ?y. ?y1 ?p1 ?y0. } 
+>> SLOTS: y0: RESOURCE {Oxford}y1: RESOURCE {University}p0: PROPERTY {official color}p1: SYMPROPERTY {of}
 >> QUERY: SELECT ?y { ?y rdf:type ?p1. ?y ?p0 ?y1. ?y ?p0 ?y0. } 
 >> SLOTS: y0: RESOURCE {University}y1: RESOURCE {Oxford}p0: PROPERTY {}p1: CLASS {official color}
->> QUERY: SELECT ?y { ?y1 ?p1 ?y. ?y ?p0 ?y0. } 
->> SLOTS: y0: RESOURCE {University}y1: RESOURCE {Oxford}p0: PROPERTY {}p1: PROPERTY {official color}
->> QUERY: SELECT ?y { ?y1 ?p1 ?y. ?y ?p0 ?y0. } 
->> SLOTS: y0: RESOURCE {University}y1: RESOURCE {Oxford}p0: PROPERTY {}p1: PROPERTY {official color}
->> QUERY: SELECT ?y { ?y0 ?p1 ?y. ?y ?p0 ?y1. } 
->> SLOTS: y0: RESOURCE {Oxford}y1: RESOURCE {University}p0: PROPERTY {}p1: PROPERTY {official color}
->> QUERY: SELECT ?y { ?y1 ?p1 ?y. ?y ?p0 ?y0. } 
->> SLOTS: y0: RESOURCE {University}y1: RESOURCE {Oxford}p0: PROPERTY {}p1: PROPERTY {official color}
->> QUERY: SELECT ?y { ?y0 ?p1 ?y. ?y ?p0 ?y1. } 
->> SLOTS: y0: RESOURCE {Oxford}y1: RESOURCE {University}p0: PROPERTY {}p1: PROPERTY {official color}
->> QUERY: SELECT ?y { ?y1 ?p1 ?y. ?y ?p0 ?y0. } 
->> SLOTS: y0: RESOURCE {University}y1: RESOURCE {Oxford}p0: PROPERTY {}p1: PROPERTY {official color}
->> QUERY: SELECT ?y { ?y1 ?p1 ?y. ?y ?p0 ?y0. } 
->> SLOTS: y0: RESOURCE {University}y1: RESOURCE {Oxford}p0: PROPERTY {}p1: PROPERTY {official color}
 >> QUERY: SELECT ?y { ?y rdf:type ?p1. ?y ?p0 ?y1. ?y1 ?p0 ?y0. } 
 >> SLOTS: y0: RESOURCE {Oxford}y1: RESOURCE {University}p0: PROPERTY {}p1: CLASS {official color}
 >> QUERY: SELECT ?y { ?y1 ?p1 ?y. ?y ?p0 ?y0. } 
 >> SLOTS: y0: RESOURCE {University}y1: RESOURCE {Oxford}p0: PROPERTY {}p1: PROPERTY {official color}
+>> QUERY: SELECT ?y { ?y1 ?p1 ?y. ?y ?p0 ?y0. } 
+>> SLOTS: y0: RESOURCE {University}y1: RESOURCE {Oxford}p0: PROPERTY {}p1: PROPERTY {official color}
 >> QUERY: SELECT ?y { ?y0 ?p1 ?y. ?y ?p0 ?y1. } 
 >> SLOTS: y0: RESOURCE {Oxford}y1: RESOURCE {University}p0: PROPERTY {}p1: PROPERTY {official color}
 >> QUERY: SELECT ?y { ?y0 ?p1 ?y. ?y ?p0 ?y1. } 
 >> SLOTS: y0: RESOURCE {Oxford}y1: RESOURCE {University}p0: PROPERTY {}p1: PROPERTY {official color}
 >> QUERY: SELECT ?y { ?y0 ?p1 ?y. ?y ?p0 ?y1. } 
 >> SLOTS: y0: RESOURCE {Oxford}y1: RESOURCE {University}p0: PROPERTY {}p1: PROPERTY {official color}
->> QUERY: SELECT ?y { ?y0 ?p1 ?y. ?y ?p0 ?y1. } 
->> SLOTS: y0: RESOURCE {University}y1: RESOURCE {Oxford}p0: SYMPROPERTY {of}p1: PROPERTY {official color}
->> QUERY: SELECT ?y { ?y0 ?p1 ?y. ?y ?p0 ?y1. } 
->> SLOTS: y0: RESOURCE {Oxford}y1: RESOURCE {University}p0: PROPERTY {}p1: PROPERTY {official color}
->> QUERY: SELECT ?y { ?y1 ?p0 ?y. ?y1 ?p1 ?y0. } 
->> SLOTS: y0: RESOURCE {Oxford}y1: RESOURCE {University}p0: PROPERTY {official color}p1: SYMPROPERTY {of}
+>> QUERY: SELECT ?y { ?y1 ?p1 ?y. ?y ?p0 ?y0. } 
+>> SLOTS: y0: RESOURCE {University}y1: RESOURCE {Oxford}p0: PROPERTY {}p1: PROPERTY {official color}
+>> QUERY: SELECT ?y { ?y1 ?p1 ?y. ?y ?p0 ?y0. } 
+>> SLOTS: y0: RESOURCE {University}y1: RESOURCE {Oxford}p0: PROPERTY {}p1: PROPERTY {official color}
 Running entity disambiguation...
-Found 6 entities for slot y0: RESOURCE {University}: [http://dbpedia.org/resource/Notre_univers_impitoyable(Notre_univers_impitoyable), http://dbpedia.org/resource/Univers_Zen_ou_de_zéro_à_zéro(Univers_Zen_ou_de_zéro_à_zéro), http://dbpedia.org/resource/Elisas_univers(Elisas_univers), http://dbpedia.org/resource/Un_autre_univers(Un_autre_univers), http://dbpedia.org/resource/Univers_Zero(Univers_Zero), http://dbpedia.org/resource/Univers(Univers)]
-Found 10 entities for slot y1: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
-Found 0 entities for slot p0: PROPERTY {}: []
-Found 0 entities for slot p1: CLASS {official color}: []
 Found 6 entities for slot y0: RESOURCE {University}: [http://dbpedia.org/resource/Univers_Zen_ou_de_zéro_à_zéro(Univers_Zen_ou_de_zéro_à_zéro), http://dbpedia.org/resource/Notre_univers_impitoyable(Notre_univers_impitoyable), http://dbpedia.org/resource/Elisas_univers(Elisas_univers), http://dbpedia.org/resource/Un_autre_univers(Un_autre_univers), http://dbpedia.org/resource/Univers_Zero(Univers_Zero), http://dbpedia.org/resource/Univers(Univers)]
 Found 10 entities for slot y1: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
-Found 0 entities for slot p0: PROPERTY {}: []
-Found 0 entities for slot p1: PROPERTY {official color}: []
-Found 6 entities for slot y0: RESOURCE {University}: [http://dbpedia.org/resource/Univers_Zen_ou_de_zéro_à_zéro(Univers_Zen_ou_de_zéro_à_zéro), http://dbpedia.org/resource/Notre_univers_impitoyable(Notre_univers_impitoyable), http://dbpedia.org/resource/Elisas_univers(Elisas_univers), http://dbpedia.org/resource/Un_autre_univers(Un_autre_univers), http://dbpedia.org/resource/Univers_Zero(Univers_Zero), http://dbpedia.org/resource/Univers(Univers)]
-Found 10 entities for slot y1: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
-Found 0 entities for slot p0: PROPERTY {}: []
-Found 0 entities for slot p1: PROPERTY {official color}: []
-Found 10 entities for slot y0: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
-Found 6 entities for slot y1: RESOURCE {University}: [http://dbpedia.org/resource/Notre_univers_impitoyable(Notre_univers_impitoyable), http://dbpedia.org/resource/Univers_Zen_ou_de_zéro_à_zéro(Univers_Zen_ou_de_zéro_à_zéro), http://dbpedia.org/resource/Elisas_univers(Elisas_univers), http://dbpedia.org/resource/Un_autre_univers(Un_autre_univers), http://dbpedia.org/resource/Univers_Zero(Univers_Zero), http://dbpedia.org/resource/Univers(Univers)]
-Found 0 entities for slot p0: PROPERTY {}: []
-Found 0 entities for slot p1: PROPERTY {official color}: []
-Found 6 entities for slot y0: RESOURCE {University}: [http://dbpedia.org/resource/Univers_Zen_ou_de_zéro_à_zéro(Univers_Zen_ou_de_zéro_à_zéro), http://dbpedia.org/resource/Notre_univers_impitoyable(Notre_univers_impitoyable), http://dbpedia.org/resource/Elisas_univers(Elisas_univers), http://dbpedia.org/resource/Un_autre_univers(Un_autre_univers), http://dbpedia.org/resource/Univers_Zero(Univers_Zero), http://dbpedia.org/resource/Univers(Univers)]
-Found 10 entities for slot y1: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
-Found 0 entities for slot p0: PROPERTY {}: []
-Found 0 entities for slot p1: PROPERTY {official color}: []
-Found 10 entities for slot y0: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
-Found 6 entities for slot y1: RESOURCE {University}: [http://dbpedia.org/resource/Univers_Zen_ou_de_zéro_à_zéro(Univers_Zen_ou_de_zéro_à_zéro), http://dbpedia.org/resource/Notre_univers_impitoyable(Notre_univers_impitoyable), http://dbpedia.org/resource/Elisas_univers(Elisas_univers), http://dbpedia.org/resource/Un_autre_univers(Un_autre_univers), http://dbpedia.org/resource/Univers_Zero(Univers_Zero), http://dbpedia.org/resource/Univers(Univers)]
-Found 0 entities for slot p0: PROPERTY {}: []
-Found 0 entities for slot p1: PROPERTY {official color}: []
-Found 6 entities for slot y0: RESOURCE {University}: [http://dbpedia.org/resource/Notre_univers_impitoyable(Notre_univers_impitoyable), http://dbpedia.org/resource/Univers_Zen_ou_de_zéro_à_zéro(Univers_Zen_ou_de_zéro_à_zéro), http://dbpedia.org/resource/Elisas_univers(Elisas_univers), http://dbpedia.org/resource/Un_autre_univers(Un_autre_univers), http://dbpedia.org/resource/Univers_Zero(Univers_Zero), http://dbpedia.org/resource/Univers(Univers)]
-Found 10 entities for slot y1: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
-Found 0 entities for slot p0: PROPERTY {}: []
-Found 0 entities for slot p1: PROPERTY {official color}: []
-Found 6 entities for slot y0: RESOURCE {University}: [http://dbpedia.org/resource/Notre_univers_impitoyable(Notre_univers_impitoyable), http://dbpedia.org/resource/Univers_Zen_ou_de_zéro_à_zéro(Univers_Zen_ou_de_zéro_à_zéro), http://dbpedia.org/resource/Elisas_univers(Elisas_univers), http://dbpedia.org/resource/Un_autre_univers(Un_autre_univers), http://dbpedia.org/resource/Univers_Zero(Univers_Zero), http://dbpedia.org/resource/Univers(Univers)]
-Found 10 entities for slot y1: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
-Found 0 entities for slot p0: PROPERTY {}: []
-Found 0 entities for slot p1: PROPERTY {official color}: []
-Found 10 entities for slot y0: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
-Found 6 entities for slot y1: RESOURCE {University}: [http://dbpedia.org/resource/Notre_univers_impitoyable(Notre_univers_impitoyable), http://dbpedia.org/resource/Univers_Zen_ou_de_zéro_à_zéro(Univers_Zen_ou_de_zéro_à_zéro), http://dbpedia.org/resource/Elisas_univers(Elisas_univers), http://dbpedia.org/resource/Un_autre_univers(Un_autre_univers), http://dbpedia.org/resource/Univers_Zero(Univers_Zero), http://dbpedia.org/resource/Univers(Univers)]
-Found 0 entities for slot p0: PROPERTY {}: []
-Found 0 entities for slot p1: CLASS {official color}: []
-Found 6 entities for slot y0: RESOURCE {University}: [http://dbpedia.org/resource/Notre_univers_impitoyable(Notre_univers_impitoyable), http://dbpedia.org/resource/Univers_Zen_ou_de_zéro_à_zéro(Univers_Zen_ou_de_zéro_à_zéro), http://dbpedia.org/resource/Elisas_univers(Elisas_univers), http://dbpedia.org/resource/Un_autre_univers(Un_autre_univers), http://dbpedia.org/resource/Univers_Zero(Univers_Zero), http://dbpedia.org/resource/Univers(Univers)]
-Found 10 entities for slot y1: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
-Found 0 entities for slot p0: PROPERTY {}: []
-Found 0 entities for slot p1: PROPERTY {official color}: []
-Found 10 entities for slot y0: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
-Found 6 entities for slot y1: RESOURCE {University}: [http://dbpedia.org/resource/Notre_univers_impitoyable(Notre_univers_impitoyable), http://dbpedia.org/resource/Univers_Zen_ou_de_zéro_à_zéro(Univers_Zen_ou_de_zéro_à_zéro), http://dbpedia.org/resource/Elisas_univers(Elisas_univers), http://dbpedia.org/resource/Un_autre_univers(Un_autre_univers), http://dbpedia.org/resource/Univers_Zero(Univers_Zero), http://dbpedia.org/resource/Univers(Univers)]
 Found 0 entities for slot p0: PROPERTY {}: []
 Found 0 entities for slot p1: PROPERTY {official color}: []
 Found 10 entities for slot y0: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
 Found 6 entities for slot y1: RESOURCE {University}: [http://dbpedia.org/resource/Univers_Zen_ou_de_zéro_à_zéro(Univers_Zen_ou_de_zéro_à_zéro), http://dbpedia.org/resource/Notre_univers_impitoyable(Notre_univers_impitoyable), http://dbpedia.org/resource/Elisas_univers(Elisas_univers), http://dbpedia.org/resource/Un_autre_univers(Un_autre_univers), http://dbpedia.org/resource/Univers_Zero(Univers_Zero), http://dbpedia.org/resource/Univers(Univers)]
 Found 0 entities for slot p0: PROPERTY {}: []
 Found 0 entities for slot p1: PROPERTY {official color}: []
-Found 10 entities for slot y0: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
+Found 10 entities for slot y0: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
+Found 6 entities for slot y1: RESOURCE {University}: [http://dbpedia.org/resource/Univers_Zen_ou_de_zéro_à_zéro(Univers_Zen_ou_de_zéro_à_zéro), http://dbpedia.org/resource/Notre_univers_impitoyable(Notre_univers_impitoyable), http://dbpedia.org/resource/Elisas_univers(Elisas_univers), http://dbpedia.org/resource/Un_autre_univers(Un_autre_univers), http://dbpedia.org/resource/Univers_Zero(Univers_Zero), http://dbpedia.org/resource/Univers(Univers)]
+Found 0 entities for slot p0: PROPERTY {}: []
+Found 0 entities for slot p1: PROPERTY {official color}: []
+Found 10 entities for slot y0: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
+Found 6 entities for slot y1: RESOURCE {University}: [http://dbpedia.org/resource/Notre_univers_impitoyable(Notre_univers_impitoyable), http://dbpedia.org/resource/Univers_Zen_ou_de_zéro_à_zéro(Univers_Zen_ou_de_zéro_à_zéro), http://dbpedia.org/resource/Elisas_univers(Elisas_univers), http://dbpedia.org/resource/Un_autre_univers(Un_autre_univers), http://dbpedia.org/resource/Univers_Zero(Univers_Zero), http://dbpedia.org/resource/Univers(Univers)]
+Found 0 entities for slot p0: PROPERTY {}: []
+Found 0 entities for slot p1: PROPERTY {official color}: []
+Found 6 entities for slot y0: RESOURCE {University}: [http://dbpedia.org/resource/Univers_Zen_ou_de_zéro_à_zéro(Univers_Zen_ou_de_zéro_à_zéro), http://dbpedia.org/resource/Notre_univers_impitoyable(Notre_univers_impitoyable), http://dbpedia.org/resource/Elisas_univers(Elisas_univers), http://dbpedia.org/resource/Un_autre_univers(Un_autre_univers), http://dbpedia.org/resource/Univers_Zero(Univers_Zero), http://dbpedia.org/resource/Univers(Univers)]
+Found 10 entities for slot y1: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
+Found 0 entities for slot p0: PROPERTY {}: []
+Found 0 entities for slot p1: PROPERTY {official color}: []
+Found 6 entities for slot y0: RESOURCE {University}: [http://dbpedia.org/resource/Notre_univers_impitoyable(Notre_univers_impitoyable), http://dbpedia.org/resource/Univers_Zen_ou_de_zéro_à_zéro(Univers_Zen_ou_de_zéro_à_zéro), http://dbpedia.org/resource/Elisas_univers(Elisas_univers), http://dbpedia.org/resource/Un_autre_univers(Un_autre_univers), http://dbpedia.org/resource/Univers_Zero(Univers_Zero), http://dbpedia.org/resource/Univers(Univers)]
+Found 10 entities for slot y1: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
+Found 1 entities for slot p0: SYMPROPERTY {of}: [http://dbpedia.org/ontology/subsidiary(subsidiary)]
+Found 0 entities for slot p1: PROPERTY {official color}: []
+Found 10 entities for slot y0: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
+Found 6 entities for slot y1: RESOURCE {University}: [http://dbpedia.org/resource/Notre_univers_impitoyable(Notre_univers_impitoyable), http://dbpedia.org/resource/Univers_Zen_ou_de_zéro_à_zéro(Univers_Zen_ou_de_zéro_à_zéro), http://dbpedia.org/resource/Elisas_univers(Elisas_univers), http://dbpedia.org/resource/Un_autre_univers(Un_autre_univers), http://dbpedia.org/resource/Univers_Zero(Univers_Zero), http://dbpedia.org/resource/Univers(Univers)]
+Found 0 entities for slot p0: PROPERTY {official color}: []
+Found 1 entities for slot p1: SYMPROPERTY {of}: [http://dbpedia.org/ontology/subsidiary(subsidiary)]
+Found 6 entities for slot y0: RESOURCE {University}: [http://dbpedia.org/resource/Notre_univers_impitoyable(Notre_univers_impitoyable), http://dbpedia.org/resource/Univers_Zen_ou_de_zéro_à_zéro(Univers_Zen_ou_de_zéro_à_zéro), http://dbpedia.org/resource/Elisas_univers(Elisas_univers), http://dbpedia.org/resource/Un_autre_univers(Un_autre_univers), http://dbpedia.org/resource/Univers_Zero(Univers_Zero), http://dbpedia.org/resource/Univers(Univers)]
+Found 10 entities for slot y1: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
+Found 0 entities for slot p0: PROPERTY {}: []
+Found 0 entities for slot p1: CLASS {official color}: []
+Found 10 entities for slot y0: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
+Found 6 entities for slot y1: RESOURCE {University}: [http://dbpedia.org/resource/Notre_univers_impitoyable(Notre_univers_impitoyable), http://dbpedia.org/resource/Univers_Zen_ou_de_zéro_à_zéro(Univers_Zen_ou_de_zéro_à_zéro), http://dbpedia.org/resource/Elisas_univers(Elisas_univers), http://dbpedia.org/resource/Un_autre_univers(Un_autre_univers), http://dbpedia.org/resource/Univers_Zero(Univers_Zero), http://dbpedia.org/resource/Univers(Univers)]
+Found 0 entities for slot p0: PROPERTY {}: []
+Found 0 entities for slot p1: CLASS {official color}: []
+Found 6 entities for slot y0: RESOURCE {University}: [http://dbpedia.org/resource/Notre_univers_impitoyable(Notre_univers_impitoyable), http://dbpedia.org/resource/Univers_Zen_ou_de_zéro_à_zéro(Univers_Zen_ou_de_zéro_à_zéro), http://dbpedia.org/resource/Elisas_univers(Elisas_univers), http://dbpedia.org/resource/Un_autre_univers(Un_autre_univers), http://dbpedia.org/resource/Univers_Zero(Univers_Zero), http://dbpedia.org/resource/Univers(Univers)]
+Found 10 entities for slot y1: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
+Found 0 entities for slot p0: PROPERTY {}: []
+Found 0 entities for slot p1: PROPERTY {official color}: []
+Found 6 entities for slot y0: RESOURCE {University}: [http://dbpedia.org/resource/Univers_Zen_ou_de_zéro_à_zéro(Univers_Zen_ou_de_zéro_à_zéro), http://dbpedia.org/resource/Notre_univers_impitoyable(Notre_univers_impitoyable), http://dbpedia.org/resource/Elisas_univers(Elisas_univers), http://dbpedia.org/resource/Un_autre_univers(Un_autre_univers), http://dbpedia.org/resource/Univers_Zero(Univers_Zero), http://dbpedia.org/resource/Univers(Univers)]
+Found 10 entities for slot y1: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
+Found 0 entities for slot p0: PROPERTY {}: []
+Found 0 entities for slot p1: PROPERTY {official color}: []
+Found 10 entities for slot y0: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
+Found 6 entities for slot y1: RESOURCE {University}: [http://dbpedia.org/resource/Notre_univers_impitoyable(Notre_univers_impitoyable), http://dbpedia.org/resource/Univers_Zen_ou_de_zéro_à_zéro(Univers_Zen_ou_de_zéro_à_zéro), http://dbpedia.org/resource/Elisas_univers(Elisas_univers), http://dbpedia.org/resource/Un_autre_univers(Un_autre_univers), http://dbpedia.org/resource/Univers_Zero(Univers_Zero), http://dbpedia.org/resource/Univers(Univers)]
+Found 0 entities for slot p0: PROPERTY {}: []
+Found 0 entities for slot p1: PROPERTY {official color}: []
+Found 10 entities for slot y0: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
+Found 6 entities for slot y1: RESOURCE {University}: [http://dbpedia.org/resource/Univers_Zen_ou_de_zéro_à_zéro(Univers_Zen_ou_de_zéro_à_zéro), http://dbpedia.org/resource/Notre_univers_impitoyable(Notre_univers_impitoyable), http://dbpedia.org/resource/Elisas_univers(Elisas_univers), http://dbpedia.org/resource/Un_autre_univers(Un_autre_univers), http://dbpedia.org/resource/Univers_Zero(Univers_Zero), http://dbpedia.org/resource/Univers(Univers)]
+Found 0 entities for slot p0: PROPERTY {}: []
+Found 0 entities for slot p1: PROPERTY {official color}: []
+Found 10 entities for slot y0: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
 Found 6 entities for slot y1: RESOURCE {University}: [http://dbpedia.org/resource/Notre_univers_impitoyable(Notre_univers_impitoyable), http://dbpedia.org/resource/Univers_Zen_ou_de_zéro_à_zéro(Univers_Zen_ou_de_zéro_à_zéro), http://dbpedia.org/resource/Elisas_univers(Elisas_univers), http://dbpedia.org/resource/Un_autre_univers(Un_autre_univers), http://dbpedia.org/resource/Univers_Zero(Univers_Zero), http://dbpedia.org/resource/Univers(Univers)]
 Found 0 entities for slot p0: PROPERTY {}: []
 Found 0 entities for slot p1: PROPERTY {official color}: []
 Found 6 entities for slot y0: RESOURCE {University}: [http://dbpedia.org/resource/Notre_univers_impitoyable(Notre_univers_impitoyable), http://dbpedia.org/resource/Univers_Zen_ou_de_zéro_à_zéro(Univers_Zen_ou_de_zéro_à_zéro), http://dbpedia.org/resource/Elisas_univers(Elisas_univers), http://dbpedia.org/resource/Un_autre_univers(Un_autre_univers), http://dbpedia.org/resource/Univers_Zero(Univers_Zero), http://dbpedia.org/resource/Univers(Univers)]
-Found 10 entities for slot y1: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
-Found 1 entities for slot p0: SYMPROPERTY {of}: [http://dbpedia.org/ontology/subsidiary(subsidiary)]
-Found 0 entities for slot p1: PROPERTY {official color}: []
-Found 10 entities for slot y0: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
-Found 6 entities for slot y1: RESOURCE {University}: [http://dbpedia.org/resource/Univers_Zen_ou_de_zéro_à_zéro(Univers_Zen_ou_de_zéro_à_zéro), http://dbpedia.org/resource/Notre_univers_impitoyable(Notre_univers_impitoyable), http://dbpedia.org/resource/Elisas_univers(Elisas_univers), http://dbpedia.org/resource/Un_autre_univers(Un_autre_univers), http://dbpedia.org/resource/Univers_Zero(Univers_Zero), http://dbpedia.org/resource/Univers(Univers)]
+Found 10 entities for slot y1: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
 Found 0 entities for slot p0: PROPERTY {}: []
 Found 0 entities for slot p1: PROPERTY {official color}: []
-Found 10 entities for slot y0: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
-Found 6 entities for slot y1: RESOURCE {University}: [http://dbpedia.org/resource/Univers_Zen_ou_de_zéro_à_zéro(Univers_Zen_ou_de_zéro_à_zéro), http://dbpedia.org/resource/Notre_univers_impitoyable(Notre_univers_impitoyable), http://dbpedia.org/resource/Elisas_univers(Elisas_univers), http://dbpedia.org/resource/Un_autre_univers(Un_autre_univers), http://dbpedia.org/resource/Univers_Zero(Univers_Zero), http://dbpedia.org/resource/Univers(Univers)]
-Found 0 entities for slot p0: PROPERTY {official color}: []
-Found 1 entities for slot p1: SYMPROPERTY {of}: [http://dbpedia.org/ontology/subsidiary(subsidiary)]
+Found 6 entities for slot y0: RESOURCE {University}: [http://dbpedia.org/resource/Notre_univers_impitoyable(Notre_univers_impitoyable), http://dbpedia.org/resource/Univers_Zen_ou_de_zéro_à_zéro(Univers_Zen_ou_de_zéro_à_zéro), http://dbpedia.org/resource/Elisas_univers(Elisas_univers), http://dbpedia.org/resource/Un_autre_univers(Un_autre_univers), http://dbpedia.org/resource/Univers_Zero(Univers_Zero), http://dbpedia.org/resource/Univers(Univers)]
+Found 10 entities for slot y1: RESOURCE {Oxford}: [http://dbpedia.org/resource/Oxford_Collapse(Oxford_Collapse), http://dbpedia.org/resource/Oxford,_Alabama(_Alabama), http://dbpedia.org/resource/Science_Oxford(Science_Oxford), http://dbpedia.org/resource/Oxford_Hotel_(Oxford,_Pennsylvania)(Oxford_Hotel_(Oxford,_Pennsylvania)), http://dbpedia.org/resource/Oxford_Chest(Oxford_Chest), http://dbpedia.org/resource/Oxford_High_School_(Oxford)(Oxford_High_School_(Oxford)), http://dbpedia.org/resource/Oxford_Canadians(Oxford_Canadians), http://dbpedia.org/resource/Oxford,_Edmonton(_Edmonton), http://dbpedia.org/resource/Oxford(Oxford), http://dbpedia.org/resource/Oxford,_Georgia(_Georgia)]
+Found 0 entities for slot p0: PROPERTY {}: []
+Found 0 entities for slot p1: PROPERTY {official color}: []
 Running template instantiation...
 Running ranking...
 
-SELECT ?y { ?y1 ?p0 ?y . <http://dbpedia.org/resource/Univers_Zero> <http://dbpedia.org/ontology/subsidiary> ?y1 }  (Score: 0.5)
-SELECT ?y { ?y1 ?p0 ?y . ?y1 <http://dbpedia.org/ontology/subsidiary> <http://dbpedia.org/resource/Univers_Zero> }  (Score: 0.5)
 SELECT ?y { <http://dbpedia.org/resource/Oxford> ?p1 ?y . ?y1 <http://dbpedia.org/ontology/subsidiary> ?y }  (Score: 0.5)
+SELECT ?y { ?y1 ?p0 ?y . ?y1 <http://dbpedia.org/ontology/subsidiary> <http://dbpedia.org/resource/Univers_Zero> }  (Score: 0.5)
 SELECT ?y { <http://dbpedia.org/resource/Oxford> ?p1 ?y . ?y <http://dbpedia.org/ontology/subsidiary> ?y1 }  (Score: 0.5)
+SELECT ?y { ?y1 ?p0 ?y . <http://dbpedia.org/resource/Univers_Zero> <http://dbpedia.org/ontology/subsidiary> ?y1 }  (Score: 0.5)
 SELECT ?y { ?y1 ?p0 ?y . <http://dbpedia.org/resource/Un_autre_univers> <http://dbpedia.org/ontology/subsidiary> ?y1 }  (Score: 0.4609375)
 Incorrect answer:
 ( ?string = "Oxford Blue"@en )
@@ -126,8 +122,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 SELECT ?y WHERE {
-	?y1 ?p0 ?y.
-	<http://dbpedia.org/resource/Univers_Zero> <http://dbpedia.org/ontology/subsidiary> ?y1.
+	<http://dbpedia.org/resource/Oxford> ?p1 ?y.
+	?y1 <http://dbpedia.org/ontology/subsidiary> ?y.
 }
 
 Question9: How deep is Lake Placid?
@@ -163,16 +159,16 @@ SELECT ?j WHERE {
 Question10: Give me the grandchildren of Bruce Lee.
 Running template generation...
 Generated 2 templates:
->> QUERY: SELECT ?y { ?y rdf:type ?p1. ?y ?p0 ?y0. } 
->> SLOTS: y0: RESOURCE {Bruce Lee}p0: PROPERTY {}p1: CLASS {grandchildren}
 >> QUERY: SELECT ?y { ?y0 ?p0 ?y. } 
 >> SLOTS: y0: RESOURCE {Bruce Lee}p0: PROPERTY {grandchildren}
+>> QUERY: SELECT ?y { ?y rdf:type ?p1. ?y ?p0 ?y0. } 
+>> SLOTS: y0: RESOURCE {Bruce Lee}p0: PROPERTY {}p1: CLASS {grandchildren}
 Running entity disambiguation...
-Found 10 entities for slot y0: RESOURCE {Bruce Lee}: [http://dbpedia.org/resource/Media_about_Bruce_Lee(Media_about_Bruce_Lee), http://dbpedia.org/resource/Bruce_Lee_and_I(Bruce_Lee_and_I), http://dbpedia.org/resource/The_Image_of_Bruce_Lee(The_Image_of_Bruce_Lee), http://dbpedia.org/resource/Bruce_Lee:_A_Dragon_Story(_A_Dragon_Story), http://dbpedia.org/resource/Bruce_Lee_filmography(Bruce_Lee_filmography), http://dbpedia.org/resource/Bruce_Lee(Bruce_Lee), http://dbpedia.org/resource/Bruce_Lee:_Return_of_the_Legend(_Return_of_the_Legend), http://dbpedia.org/resource/Bruce_Lee,_My_Brother(_My_Brother), http://dbpedia.org/resource/Bruce_Lee_Library(Bruce_Lee_Library), http://dbpedia.org/resource/Fists_of_Bruce_Lee(Fists_of_Bruce_Lee)]
-Found 0 entities for slot p0: PROPERTY {}: []
-Found 0 entities for slot p1: CLASS {grandchildren}: []
 Found 10 entities for slot y0: RESOURCE {Bruce Lee}: [http://dbpedia.org/resource/Media_about_Bruce_Lee(Media_about_Bruce_Lee), http://dbpedia.org/resource/Bruce_Lee_and_I(Bruce_Lee_and_I), http://dbpedia.org/resource/Bruce_Lee:_A_Dragon_Story(_A_Dragon_Story), http://dbpedia.org/resource/The_Image_of_Bruce_Lee(The_Image_of_Bruce_Lee), http://dbpedia.org/resource/Bruce_Lee_filmography(Bruce_Lee_filmography), http://dbpedia.org/resource/Bruce_Lee:_Return_of_the_Legend(_Return_of_the_Legend), http://dbpedia.org/resource/Bruce_Lee(Bruce_Lee), http://dbpedia.org/resource/Bruce_Lee,_My_Brother(_My_Brother), http://dbpedia.org/resource/Bruce_Lee_Library(Bruce_Lee_Library), http://dbpedia.org/resource/Fists_of_Bruce_Lee(Fists_of_Bruce_Lee)]
 Found 0 entities for slot p0: PROPERTY {grandchildren}: []
+Found 10 entities for slot y0: RESOURCE {Bruce Lee}: [http://dbpedia.org/resource/Media_about_Bruce_Lee(Media_about_Bruce_Lee), http://dbpedia.org/resource/Bruce_Lee_and_I(Bruce_Lee_and_I), http://dbpedia.org/resource/Bruce_Lee:_A_Dragon_Story(_A_Dragon_Story), http://dbpedia.org/resource/The_Image_of_Bruce_Lee(The_Image_of_Bruce_Lee), http://dbpedia.org/resource/Bruce_Lee_filmography(Bruce_Lee_filmography), http://dbpedia.org/resource/Bruce_Lee:_Return_of_the_Legend(_Return_of_the_Legend), http://dbpedia.org/resource/Bruce_Lee(Bruce_Lee), http://dbpedia.org/resource/Bruce_Lee,_My_Brother(_My_Brother), http://dbpedia.org/resource/Bruce_Lee_Library(Bruce_Lee_Library), http://dbpedia.org/resource/Fists_of_Bruce_Lee(Fists_of_Bruce_Lee)]
+Found 0 entities for slot p0: PROPERTY {}: []
+Found 0 entities for slot p1: CLASS {grandchildren}: []
 Running template instantiation...
 Running ranking...
 
@@ -241,15 +237,15 @@ Generated 1 templates:
 Running entity disambiguation...
 Found 10 entities for slot y: RESOURCE {Bach}: [http://dbpedia.org/resource/Kent_Bach(Kent_Bach), http://dbpedia.org/resource/Lippinghauser_Bach(Lippinghauser_Bach), http://dbpedia.org/resource/Bach,_Austria(_Austria), http://dbpedia.org/resource/Hanshäger_Bach(Hanshäger_Bach), http://dbpedia.org/resource/Albaumer_Bach(Albaumer_Bach), http://dbpedia.org/resource/Pfitscher_Bach(Pfitscher_Bach), http://dbpedia.org/resource/Oefter_Bach(Oefter_Bach), http://dbpedia.org/resource/William_Bach,_Baron_Bach(_Baron_Bach), http://dbpedia.org/resource/Hendre_Bach(Hendre_Bach), http://dbpedia.org/resource/Bera_Bach(Bera_Bach)]
 Found 2 entities for slot p0: SYMPROPERTY {born}: [http://dbpedia.org/ontology/author(author), http://dbpedia.org/ontology/birthPlace(birthPlace)]
-Found 10 entities for slot p1: PROPERTY {place}: [http://dbpedia.org/ontology/birthPlace(birthPlace), http://dbpedia.org/ontology/placeOfWorship(placeOfWorship), http://dbpedia.org/ontology/buriedPlace(buriedPlace), http://dbpedia.org/ontology/placeOfBurial(placeOfBurial), http://dbpedia.org/ontology/mouthPlace(mouthPlace), http://dbpedia.org/ontology/foundationPlace(foundationPlace), http://dbpedia.org/ontology/chiefPlace(chiefPlace), http://dbpedia.org/ontology/managementPlace(managementPlace), http://dbpedia.org/ontology/premierePlace(premierePlace), http://dbpedia.org/ontology/sourcePlace(sourcePlace)]
+Found 10 entities for slot p1: PROPERTY {place}: [http://dbpedia.org/ontology/birthPlace(birthPlace), http://dbpedia.org/ontology/placeOfWorship(placeOfWorship), http://dbpedia.org/ontology/buriedPlace(buriedPlace), http://dbpedia.org/ontology/placeOfBurial(placeOfBurial), http://dbpedia.org/ontology/mouthPlace(mouthPlace), http://dbpedia.org/ontology/foundationPlace(foundationPlace), http://dbpedia.org/ontology/chiefPlace(chiefPlace), http://dbpedia.org/ontology/premierePlace(premierePlace), http://dbpedia.org/ontology/managementPlace(managementPlace), http://dbpedia.org/ontology/sourcePlace(sourcePlace)]
 Running template instantiation...
 Running ranking...
 
-SELECT ?x ?x0 { ?x <http://dbpedia.org/ontology/birthPlace> ?x0 . ?x <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/William_Bach,_Baron_Bach> }  (Score: 1.3208658780127849)
 SELECT ?x ?x0 { ?x <http://dbpedia.org/ontology/birthPlace> ?x0 . <http://dbpedia.org/resource/William_Bach,_Baron_Bach> <http://dbpedia.org/ontology/birthPlace> ?x }  (Score: 1.3208658780127849)
+SELECT ?x ?x0 { ?x <http://dbpedia.org/ontology/birthPlace> ?x0 . ?x <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/William_Bach,_Baron_Bach> }  (Score: 1.3208658780127849)
 SELECT ?x ?x0 { ?x <http://dbpedia.org/ontology/birthPlace> ?x0 . <http://dbpedia.org/resource/Bera_Bach> <http://dbpedia.org/ontology/birthPlace> ?x }  (Score: 1.2174712421136524)
 SELECT ?x ?x0 { ?x <http://dbpedia.org/ontology/birthPlace> ?x0 . ?x <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Bera_Bach> }  (Score: 1.2174712421136524)
-SELECT ?x ?x0 { ?x <http://dbpedia.org/ontology/birthPlace> ?x0 . ?x <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Pfitscher_Bach> }  (Score: 1.2020204968647104)
+SELECT ?x ?x0 { ?x <http://dbpedia.org/ontology/birthPlace> ?x0 . <http://dbpedia.org/resource/Pfitscher_Bach> <http://dbpedia.org/ontology/birthPlace> ?x }  (Score: 1.2020204968647104)
 Incorrect answer:
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX res: <http://dbpedia.org/resource/>
@@ -262,7 +258,7 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 SELECT ?x ?x0 WHERE {
 	?x <http://dbpedia.org/ontology/birthPlace> ?x0.
-	?x <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/William_Bach,_Baron_Bach>.
+	<http://dbpedia.org/resource/William_Bach,_Baron_Bach> <http://dbpedia.org/ontology/birthPlace> ?x.
 }
 
 Question19: Give me all taikonauts.
@@ -299,15 +295,24 @@ Running template generation...
 Generated 5 templates:
 >> QUERY: SELECT ?y ?y0 { ?y rdf:type ?p2. ?y0 ?p1 ?j. ?y ?p0 ?y0. } ORDER BY DESC(?j) LIMIT 1 OFFSET 0 
 >> SLOTS: p0: PROPERTY {span}p1: PROPERTY {longest}p2: CLASS {bridge}
+>> QUERY: SELECT ?y ?y0 { ?y rdf:type ?p2. ?y0 ?p1 ?j. ?y ?p0 ?y0. } ORDER BY DESC(?j) LIMIT 1 OFFSET 0 
+>> SLOTS: p0: PROPERTY {span}p1: PROPERTY {longest}p2: CLASS {bridge}
+>> QUERY: SELECT ?y ?y0 { ?y rdf:type ?p2. ?y0 ?p1 ?j. ?y ?p0 ?y0. } ORDER BY DESC(?j) LIMIT 1 OFFSET 0 
+>> SLOTS: p0: PROPERTY {span}p1: PROPERTY {longest}p2: CLASS {bridge}
+>> QUERY: SELECT ?y ?y0 { ?y rdf:type ?p2. ?y0 ?p1 ?j. ?y ?p0 ?y0. } ORDER BY DESC(?j) LIMIT 1 OFFSET 0 
+>> SLOTS: p0: PROPERTY {span}p1: PROPERTY {longest}p2: CLASS {bridge}
 >> QUERY: SELECT ?y ?y0 { ?y0 rdf:type ?p2. ?y rdf:type ?p3. ?y0 ?p1 ?j. ?y ?p0 ?y0. } ORDER BY DESC(?j) LIMIT 1 OFFSET 0 
 >> SLOTS: p0: SYMPROPERTY {with}p1: PROPERTY {longest}p2: CLASS {span}p3: CLASS {bridge}
->> QUERY: SELECT ?y ?y0 { ?y rdf:type ?p2. ?y0 ?p1 ?j. ?y ?p0 ?y0. } ORDER BY DESC(?j) LIMIT 1 OFFSET 0 
->> SLOTS: p0: PROPERTY {span}p1: PROPERTY {longest}p2: CLASS {bridge}
->> QUERY: SELECT ?y ?y0 { ?y rdf:type ?p2. ?y0 ?p1 ?j. ?y ?p0 ?y0. } ORDER BY DESC(?j) LIMIT 1 OFFSET 0 
->> SLOTS: p0: PROPERTY {span}p1: PROPERTY {longest}p2: CLASS {bridge}
->> QUERY: SELECT ?y ?y0 { ?y rdf:type ?p2. ?y0 ?p1 ?j. ?y ?p0 ?y0. } ORDER BY DESC(?j) LIMIT 1 OFFSET 0 
->> SLOTS: p0: PROPERTY {span}p1: PROPERTY {longest}p2: CLASS {bridge}
 Running entity disambiguation...
+Found 1 entities for slot p0: PROPERTY {span}: [http://dbpedia.org/ontology/millSpan(millSpan)]
+Found 0 entities for slot p1: PROPERTY {longest}: []
+Found 0 entities for slot p2: CLASS {bridge}: []
+Found 1 entities for slot p0: PROPERTY {span}: [http://dbpedia.org/ontology/millSpan(millSpan)]
+Found 0 entities for slot p1: PROPERTY {longest}: []
+Found 0 entities for slot p2: CLASS {bridge}: []
+Found 1 entities for slot p0: PROPERTY {span}: [http://dbpedia.org/ontology/millSpan(millSpan)]
+Found 0 entities for slot p1: PROPERTY {longest}: []
+Found 0 entities for slot p2: CLASS {bridge}: []
 Found 1 entities for slot p0: PROPERTY {span}: [http://dbpedia.org/ontology/millSpan(millSpan)]
 Found 0 entities for slot p1: PROPERTY {longest}: []
 Found 0 entities for slot p2: CLASS {bridge}: []
@@ -315,15 +320,6 @@ Found 2 entities for slot p0: SYMPROPERTY {with}: [http://dbpedia.org/ontology/s
 Found 0 entities for slot p1: PROPERTY {longest}: []
 Found 0 entities for slot p2: CLASS {span}: []
 Found 0 entities for slot p3: CLASS {bridge}: []
-Found 1 entities for slot p0: PROPERTY {span}: [http://dbpedia.org/ontology/millSpan(millSpan)]
-Found 0 entities for slot p1: PROPERTY {longest}: []
-Found 0 entities for slot p2: CLASS {bridge}: []
-Found 1 entities for slot p0: PROPERTY {span}: [http://dbpedia.org/ontology/millSpan(millSpan)]
-Found 0 entities for slot p1: PROPERTY {longest}: []
-Found 0 entities for slot p2: CLASS {bridge}: []
-Found 1 entities for slot p0: PROPERTY {span}: [http://dbpedia.org/ontology/millSpan(millSpan)]
-Found 0 entities for slot p1: PROPERTY {longest}: []
-Found 0 entities for slot p2: CLASS {bridge}: []
 Running template instantiation...
 Running ranking...
 
@@ -369,7 +365,7 @@ Found 0 entities for slot y0: RESOURCE {Atlanta Falcons}: []
 Found 1 entities for slot p0: PROPERTY {tallest}: [http://dbpedia.org/ontology/deathPlace(deathPlace)]
 Found 2 entities for slot p1: PROPERTY {player}: [http://dbpedia.org/ontology/birthPlace(birthPlace), http://dbpedia.org/ontology/playerInTeam(playerInTeam)]
 Found 0 entities for slot y0: RESOURCE {Atlanta Falcons}: []
-Found 10 entities for slot p0: CLASS {player}: [http://dbpedia.org/ontology/SquashPlayer(SquashPlayer), http://dbpedia.org/ontology/SnookerPlayer(SnookerPlayer), http://dbpedia.org/ontology/HandballPlayer(HandballPlayer), http://dbpedia.org/ontology/SoccerPlayer(SoccerPlayer), http://dbpedia.org/ontology/ChessPlayer(ChessPlayer), http://dbpedia.org/ontology/TennisPlayer(TennisPlayer), http://dbpedia.org/ontology/DartsPlayer(DartsPlayer), http://dbpedia.org/ontology/BasketballPlayer(BasketballPlayer), http://dbpedia.org/ontology/BaseballPlayer(BaseballPlayer), http://dbpedia.org/ontology/RugbyPlayer(RugbyPlayer)]
+Found 10 entities for slot p0: CLASS {player}: [http://dbpedia.org/ontology/SquashPlayer(SquashPlayer), http://dbpedia.org/ontology/SnookerPlayer(SnookerPlayer), http://dbpedia.org/ontology/HandballPlayer(HandballPlayer), http://dbpedia.org/ontology/SoccerPlayer(SoccerPlayer), http://dbpedia.org/ontology/ChessPlayer(ChessPlayer), http://dbpedia.org/ontology/DartsPlayer(DartsPlayer), http://dbpedia.org/ontology/TennisPlayer(TennisPlayer), http://dbpedia.org/ontology/BaseballPlayer(BaseballPlayer), http://dbpedia.org/ontology/BasketballPlayer(BasketballPlayer), http://dbpedia.org/ontology/RugbyPlayer(RugbyPlayer)]
 Found 0 entities for slot p1: PROPERTY {}: []
 Found 1 entities for slot p2: PROPERTY {tallest}: [http://dbpedia.org/ontology/deathPlace(deathPlace)]
 Running template instantiation...
@@ -408,18 +404,15 @@ Running template generation...
 Generated 4 templates:
 >> QUERY: SELECT ?y ?x { ?x rdf:type ?p2. ?x ?p1 ?y. ?y rdf:type ?p0. } 
 >> SLOTS: p0: CLASS {German lake}p1: SYMPROPERTY {flow}p2: CLASS {rivers}
->> QUERY: SELECT ?y ?x { ?x rdf:type ?p2. ?y ?p1 ?y0. ?x ?p0 ?y. FILTER(regex(?y0,'German','i')). } 
->> SLOTS: p0: PROPERTY {lake}p1: DATATYPEPROPERTY {description}p2: CLASS {rivers}
 >> QUERY: SELECT ?y ?x { ?y ?p1 ?y0. ?x ?p2 ?y. ?y rdf:type ?p0. ?x rdf:type ?p3. FILTER(regex(?y0,'German','i')). } 
 >> SLOTS: p0: CLASS {lake}p1: DATATYPEPROPERTY {description}p2: SYMPROPERTY {flow}p3: CLASS {rivers}
 >> QUERY: SELECT ?x { ?x rdf:type ?p1. ?x ?p0 ?y. } 
 >> SLOTS: p0: PROPERTY {German lake}p1: CLASS {rivers}
+>> QUERY: SELECT ?y ?x { ?y ?p1 ?y0. ?x rdf:type ?p2. ?x ?p0 ?y. FILTER(regex(?y0,'German','i')). } 
+>> SLOTS: p0: PROPERTY {lake}p1: DATATYPEPROPERTY {description}p2: CLASS {rivers}
 Running entity disambiguation...
 Found 0 entities for slot p0: CLASS {German lake}: []
 Found 2 entities for slot p1: SYMPROPERTY {flow}: [http://dbpedia.org/ontology/birthPlace(birthPlace), http://dbpedia.org/ontology/deathPlace(deathPlace)]
-Found 1 entities for slot p2: CLASS {rivers}: [http://dbpedia.org/ontology/River(River)]
-Found 3 entities for slot p0: PROPERTY {lake}: [http://dbpedia.org/ontology/birthPlace(birthPlace), http://dbpedia.org/ontology/majorLake(majorLake), http://dbpedia.org/ontology/lake(lake)]
-Found 0 entities for slot p1: DATATYPEPROPERTY {description}: []
 Found 1 entities for slot p2: CLASS {rivers}: [http://dbpedia.org/ontology/River(River)]
 Found 1 entities for slot p0: CLASS {lake}: [http://dbpedia.org/ontology/Lake(Lake)]
 Found 0 entities for slot p1: DATATYPEPROPERTY {description}: []
@@ -427,14 +420,17 @@ Found 2 entities for slot p2: SYMPROPERTY {flow}: [http://dbpedia.org/ontology/b
 Found 1 entities for slot p3: CLASS {rivers}: [http://dbpedia.org/ontology/River(River)]
 Found 0 entities for slot p0: PROPERTY {German lake}: []
 Found 1 entities for slot p1: CLASS {rivers}: [http://dbpedia.org/ontology/River(River)]
+Found 3 entities for slot p0: PROPERTY {lake}: [http://dbpedia.org/ontology/birthPlace(birthPlace), http://dbpedia.org/ontology/majorLake(majorLake), http://dbpedia.org/ontology/lake(lake)]
+Found 0 entities for slot p1: DATATYPEPROPERTY {description}: []
+Found 1 entities for slot p2: CLASS {rivers}: [http://dbpedia.org/ontology/River(River)]
 Running template instantiation...
 Running ranking...
 
 SELECT ?y ?x { ?y ?p1 ?y0 . ?y <http://dbpedia.org/ontology/birthPlace> ?x . ?y rdf:type <http://dbpedia.org/ontology/Lake> . ?x rdf:type <http://dbpedia.org/ontology/River> FILTER regex(?y0, "German", "i") }  (Score: 1.0910353488994369)
 SELECT ?y ?x { ?y ?p1 ?y0 . ?x <http://dbpedia.org/ontology/birthPlace> ?y . ?y rdf:type <http://dbpedia.org/ontology/Lake> . ?x rdf:type <http://dbpedia.org/ontology/River> FILTER regex(?y0, "German", "i") }  (Score: 1.0910353488994369)
-SELECT ?y ?x { ?x rdf:type <http://dbpedia.org/ontology/River> . ?y ?p1 ?y0 . ?x <http://dbpedia.org/ontology/birthPlace> ?y FILTER regex(?y0, "German", "i") }  (Score: 0.8713804651992489)
-SELECT ?y ?x { ?x rdf:type <http://dbpedia.org/ontology/River> . ?y ?p1 ?y0 . ?x <http://dbpedia.org/ontology/lake> ?y FILTER regex(?y0, "German", "i") }  (Score: 0.8713804651992489)
-SELECT ?y ?x { ?y <http://dbpedia.org/ontology/birthPlace> ?x . ?y rdf:type ?p0 . ?x rdf:type <http://dbpedia.org/ontology/River> }  (Score: 0.8713804651992489)
+SELECT ?y ?x { ?y ?p1 ?y0 . ?x rdf:type <http://dbpedia.org/ontology/River> . ?x <http://dbpedia.org/ontology/birthPlace> ?y FILTER regex(?y0, "German", "i") }  (Score: 0.8713804651992489)
+SELECT ?y ?x { ?x rdf:type <http://dbpedia.org/ontology/River> . ?x <http://dbpedia.org/ontology/birthPlace> ?y . ?y rdf:type ?p0 }  (Score: 0.8713804651992489)
+SELECT ?y ?x { ?y ?p1 ?y0 . ?x rdf:type <http://dbpedia.org/ontology/River> . ?x <http://dbpedia.org/ontology/lake> ?y FILTER regex(?y0, "German", "i") }  (Score: 0.8713804651992489)
 Incorrect answer:
 ( ?uri = <http://dbpedia.org/resource/Havel> )
 PREFIX dbo: <http://dbpedia.org/ontology/>
@@ -487,24 +483,24 @@ SELECT ?x WHERE {
 Question26: Which spaceflights were launched from Baikonur?
 Running template generation...
 Generated 2 templates:
->> QUERY: SELECT ?x { ?x rdf:type ?p0. ?x ?p1 ?y. } 
->> SLOTS: y: RESOURCE {Baikonur}p0: CLASS {spaceflights}p1: SYMPROPERTY {launched}
 >> QUERY: SELECT ?x { ?y ?p0 ?x. } 
 >> SLOTS: y: RESOURCE {Baikonur}p0: PROPERTY {spaceflights}
+>> QUERY: SELECT ?x { ?x rdf:type ?p0. ?x ?p1 ?y. } 
+>> SLOTS: y: RESOURCE {Baikonur}p0: CLASS {spaceflights}p1: SYMPROPERTY {launched}
 Running entity disambiguation...
-Found 10 entities for slot y: RESOURCE {Baikonur}: [http://dbpedia.org/resource/Baikonur_Cosmodrome(Baikonur_Cosmodrome), http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_45(Baikonur_Cosmodrome_Site_45), http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_31(Baikonur_Cosmodrome_Site_31), http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_90(Baikonur_Cosmodrome_Site_90), http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_200(Baikonur_Cosmodrome_Site_200), http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_81(Baikonur_Cosmodrome_Site_81), http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_110(Baikonur_Cosmodrome_Site_110), http://dbpedia.org/resource/Baikonur(Baikonur), http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_250(Baikonur_Cosmodrome_Site_250), http://dbpedia.org/resource/2700_Baikonur(_Baikonur)]
-Found 1 entities for slot p0: CLASS {spaceflights}: [http://dbpedia.org/ontology/YearInSpaceflight(YearInSpaceflight)]
-Found 7 entities for slot p1: SYMPROPERTY {launched}: [http://dbpedia.org/ontology/birthPlace(birthPlace), http://dbpedia.org/ontology/launchSite(launchSite), http://dbpedia.org/ontology/launchPad(launchPad), http://dbpedia.org/ontology/subsidiary(subsidiary), http://dbpedia.org/ontology/launchVehicle(launchVehicle), http://dbpedia.org/ontology/firstLaunchRocket(firstLaunchRocket), http://dbpedia.org/ontology/lastLaunchRocket(lastLaunchRocket)]
-Found 10 entities for slot y: RESOURCE {Baikonur}: [http://dbpedia.org/resource/Baikonur_Cosmodrome(Baikonur_Cosmodrome), http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_45(Baikonur_Cosmodrome_Site_45), http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_31(Baikonur_Cosmodrome_Site_31), http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_90(Baikonur_Cosmodrome_Site_90), http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_200(Baikonur_Cosmodrome_Site_200), http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_81(Baikonur_Cosmodrome_Site_81), http://dbpedia.org/resource/Baikonur(Baikonur), http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_110(Baikonur_Cosmodrome_Site_110), http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_250(Baikonur_Cosmodrome_Site_250), http://dbpedia.org/resource/2700_Baikonur(_Baikonur)]
+Found 10 entities for slot y: RESOURCE {Baikonur}: [http://dbpedia.org/resource/Baikonur_Cosmodrome(Baikonur_Cosmodrome), http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_45(Baikonur_Cosmodrome_Site_45), http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_90(Baikonur_Cosmodrome_Site_90), http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_31(Baikonur_Cosmodrome_Site_31), http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_200(Baikonur_Cosmodrome_Site_200), http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_81(Baikonur_Cosmodrome_Site_81), http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_110(Baikonur_Cosmodrome_Site_110), http://dbpedia.org/resource/Baikonur(Baikonur), http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_250(Baikonur_Cosmodrome_Site_250), http://dbpedia.org/resource/2700_Baikonur(_Baikonur)]
 Found 1 entities for slot p0: PROPERTY {spaceflights}: [http://dbpedia.org/ontology/countryWithFirstSpaceflight(countryWithFirstSpaceflight)]
+Found 10 entities for slot y: RESOURCE {Baikonur}: [http://dbpedia.org/resource/Baikonur_Cosmodrome(Baikonur_Cosmodrome), http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_45(Baikonur_Cosmodrome_Site_45), http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_90(Baikonur_Cosmodrome_Site_90), http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_31(Baikonur_Cosmodrome_Site_31), http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_200(Baikonur_Cosmodrome_Site_200), http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_81(Baikonur_Cosmodrome_Site_81), http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_110(Baikonur_Cosmodrome_Site_110), http://dbpedia.org/resource/Baikonur(Baikonur), http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_250(Baikonur_Cosmodrome_Site_250), http://dbpedia.org/resource/2700_Baikonur(_Baikonur)]
+Found 1 entities for slot p0: CLASS {spaceflights}: [http://dbpedia.org/ontology/YearInSpaceflight(YearInSpaceflight)]
+Found 7 entities for slot p1: SYMPROPERTY {launched}: [http://dbpedia.org/ontology/launchSite(launchSite), http://dbpedia.org/ontology/birthPlace(birthPlace), http://dbpedia.org/ontology/launchPad(launchPad), http://dbpedia.org/ontology/subsidiary(subsidiary), http://dbpedia.org/ontology/launchVehicle(launchVehicle), http://dbpedia.org/ontology/firstLaunchRocket(firstLaunchRocket), http://dbpedia.org/ontology/lastLaunchRocket(lastLaunchRocket)]
 Running template instantiation...
 Running ranking...
 
 SELECT ?x { <http://dbpedia.org/resource/Baikonur> <http://dbpedia.org/ontology/countryWithFirstSpaceflight> ?x }  (Score: 1.5414184702680758)
 SELECT ?x { <http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_200> <http://dbpedia.org/ontology/countryWithFirstSpaceflight> ?x }  (Score: 1.4375223595600124)
-SELECT ?x { ?x rdf:type <http://dbpedia.org/ontology/YearInSpaceflight> . ?x <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Baikonur> }  (Score: 1.4149245078219268)
 SELECT ?x { <http://dbpedia.org/resource/Baikonur> <http://dbpedia.org/ontology/birthPlace> ?x . ?x rdf:type <http://dbpedia.org/ontology/YearInSpaceflight> }  (Score: 1.4149245078219268)
-SELECT ?x { <http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_200> <http://dbpedia.org/ontology/birthPlace> ?x . ?x rdf:type <http://dbpedia.org/ontology/YearInSpaceflight> }  (Score: 1.3456604340165512)
+SELECT ?x { ?x rdf:type <http://dbpedia.org/ontology/YearInSpaceflight> . ?x <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Baikonur> }  (Score: 1.4149245078219268)
+SELECT ?x { ?x rdf:type <http://dbpedia.org/ontology/YearInSpaceflight> . ?x <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Baikonur_Cosmodrome_Site_200> }  (Score: 1.3456604340165512)
 Incorrect answer:
 ( ?uri = <http://dbpedia.org/resource/Soyuz_1> )
 PREFIX dbo: <http://dbpedia.org/ontology/>
@@ -525,26 +521,26 @@ Running template generation...
 Generated 3 templates:
 >> QUERY: SELECT ?x { ?y ?p0 ?x. } 
 >> SLOTS: y: RESOURCE {John Paul II}p0: PROPERTY {pope}
->> QUERY: SELECT ?x { ?x rdf:type ?p0. ?x ?p1 ?y. } 
->> SLOTS: y: RESOURCE {John Paul II}p0: CLASS {pope}p1: SYMPROPERTY {succeeded}
 >> QUERY: SELECT ?x { ?y ?p0 ?x. } 
 >> SLOTS: y: RESOURCE {John Paul II}p0: PROPERTY {pope}
+>> QUERY: SELECT ?x { ?x rdf:type ?p0. ?x ?p1 ?y. } 
+>> SLOTS: y: RESOURCE {John Paul II}p0: CLASS {pope}p1: SYMPROPERTY {succeeded}
 Running entity disambiguation...
 Found 10 entities for slot y: RESOURCE {John Paul II}: [http://dbpedia.org/resource/Beatification_of_Pope_John_Paul_II(Beatification_of_Pope_John_Paul_II), http://dbpedia.org/resource/John_Paul_II_Institute(John_Paul_II_Institute), http://dbpedia.org/resource/John_Paul_II_Foundation(John_Paul_II_Foundation), http://dbpedia.org/resource/Pope_John_Paul_II(Pope_John_Paul_II), http://dbpedia.org/resource/Testament_of_Pope_John_Paul_II(Testament_of_Pope_John_Paul_II), http://dbpedia.org/resource/Criticism_of_Pope_John_Paul_II(Criticism_of_Pope_John_Paul_II), http://dbpedia.org/resource/Pontifical_University_of_John_Paul_II(Pontifical_University_of_John_Paul_II), http://dbpedia.org/resource/Tiara_of_Pope_John_Paul_II(Tiara_of_Pope_John_Paul_II), http://dbpedia.org/resource/Funeral_of_Pope_John_Paul_II(Funeral_of_Pope_John_Paul_II), http://dbpedia.org/resource/Credo:_John_Paul_II(_John_Paul_II)]
 Found 2 entities for slot p0: PROPERTY {pope}: [http://dbpedia.org/ontology/birthPlace(birthPlace), http://dbpedia.org/ontology/deathPlace(deathPlace)]
 Found 10 entities for slot y: RESOURCE {John Paul II}: [http://dbpedia.org/resource/Beatification_of_Pope_John_Paul_II(Beatification_of_Pope_John_Paul_II), http://dbpedia.org/resource/John_Paul_II_Institute(John_Paul_II_Institute), http://dbpedia.org/resource/John_Paul_II_Foundation(John_Paul_II_Foundation), http://dbpedia.org/resource/Pope_John_Paul_II(Pope_John_Paul_II), http://dbpedia.org/resource/Testament_of_Pope_John_Paul_II(Testament_of_Pope_John_Paul_II), http://dbpedia.org/resource/Criticism_of_Pope_John_Paul_II(Criticism_of_Pope_John_Paul_II), http://dbpedia.org/resource/Pontifical_University_of_John_Paul_II(Pontifical_University_of_John_Paul_II), http://dbpedia.org/resource/Tiara_of_Pope_John_Paul_II(Tiara_of_Pope_John_Paul_II), http://dbpedia.org/resource/Funeral_of_Pope_John_Paul_II(Funeral_of_Pope_John_Paul_II), http://dbpedia.org/resource/Credo:_John_Paul_II(_John_Paul_II)]
+Found 2 entities for slot p0: PROPERTY {pope}: [http://dbpedia.org/ontology/birthPlace(birthPlace), http://dbpedia.org/ontology/deathPlace(deathPlace)]
+Found 10 entities for slot y: RESOURCE {John Paul II}: [http://dbpedia.org/resource/Beatification_of_Pope_John_Paul_II(Beatification_of_Pope_John_Paul_II), http://dbpedia.org/resource/John_Paul_II_Foundation(John_Paul_II_Foundation), http://dbpedia.org/resource/John_Paul_II_Institute(John_Paul_II_Institute), http://dbpedia.org/resource/Pope_John_Paul_II(Pope_John_Paul_II), http://dbpedia.org/resource/Testament_of_Pope_John_Paul_II(Testament_of_Pope_John_Paul_II), http://dbpedia.org/resource/Criticism_of_Pope_John_Paul_II(Criticism_of_Pope_John_Paul_II), http://dbpedia.org/resource/Pontifical_University_of_John_Paul_II(Pontifical_University_of_John_Paul_II), http://dbpedia.org/resource/Tiara_of_Pope_John_Paul_II(Tiara_of_Pope_John_Paul_II), http://dbpedia.org/resource/Funeral_of_Pope_John_Paul_II(Funeral_of_Pope_John_Paul_II), http://dbpedia.org/resource/Credo:_John_Paul_II(_John_Paul_II)]
 Found 1 entities for slot p0: CLASS {pope}: [http://dbpedia.org/ontology/Pope(Pope)]
 Found 1 entities for slot p1: SYMPROPERTY {succeeded}: [http://dbpedia.org/ontology/birthPlace(birthPlace)]
-Found 10 entities for slot y: RESOURCE {John Paul II}: [http://dbpedia.org/resource/Beatification_of_Pope_John_Paul_II(Beatification_of_Pope_John_Paul_II), http://dbpedia.org/resource/John_Paul_II_Foundation(John_Paul_II_Foundation), http://dbpedia.org/resource/John_Paul_II_Institute(John_Paul_II_Institute), http://dbpedia.org/resource/Pope_John_Paul_II(Pope_John_Paul_II), http://dbpedia.org/resource/Testament_of_Pope_John_Paul_II(Testament_of_Pope_John_Paul_II), http://dbpedia.org/resource/Criticism_of_Pope_John_Paul_II(Criticism_of_Pope_John_Paul_II), http://dbpedia.org/resource/Pontifical_University_of_John_Paul_II(Pontifical_University_of_John_Paul_II), http://dbpedia.org/resource/Tiara_of_Pope_John_Paul_II(Tiara_of_Pope_John_Paul_II), http://dbpedia.org/resource/Funeral_of_Pope_John_Paul_II(Funeral_of_Pope_John_Paul_II), http://dbpedia.org/resource/Credo:_John_Paul_II(_John_Paul_II)]
-Found 2 entities for slot p0: PROPERTY {pope}: [http://dbpedia.org/ontology/birthPlace(birthPlace), http://dbpedia.org/ontology/deathPlace(deathPlace)]
 Running template instantiation...
 Running ranking...
 
-SELECT ?x { <http://dbpedia.org/resource/Pope_John_Paul_II> <http://dbpedia.org/ontology/birthPlace> ?x . ?x rdf:type <http://dbpedia.org/ontology/Pope> }  (Score: 1.4483561074292217)
 SELECT ?x { ?x rdf:type <http://dbpedia.org/ontology/Pope> . ?x <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Pope_John_Paul_II> }  (Score: 1.4483561074292217)
+SELECT ?x { <http://dbpedia.org/resource/Pope_John_Paul_II> <http://dbpedia.org/ontology/birthPlace> ?x . ?x rdf:type <http://dbpedia.org/ontology/Pope> }  (Score: 1.4483561074292217)
 SELECT ?x { <http://dbpedia.org/resource/Pope_John_Paul_II> <http://dbpedia.org/ontology/birthPlace> ?x }  (Score: 1.2975341611438327)
 SELECT ?x { <http://dbpedia.org/resource/Pope_John_Paul_II> <http://dbpedia.org/ontology/birthPlace> ?x }  (Score: 1.2975341611438327)
-SELECT ?x { <http://dbpedia.org/resource/Credo:_John_Paul_II> <http://dbpedia.org/ontology/birthPlace> ?x . ?x rdf:type <http://dbpedia.org/ontology/Pope> }  (Score: 1.218748690590026)
+SELECT ?x { ?x rdf:type <http://dbpedia.org/ontology/Pope> . ?x <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Credo:_John_Paul_II> }  (Score: 1.2187486905900258)
 Incorrect answer:
 PREFIX res: <http://dbpedia.org/resource/>
 PREFIX dbp: <http://dbpedia.org/property/>
@@ -556,8 +552,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 SELECT ?x WHERE {
-	<http://dbpedia.org/resource/Pope_John_Paul_II> <http://dbpedia.org/ontology/birthPlace> ?x.
 	?x rdf:type <http://dbpedia.org/ontology/Pope>.
+	?x <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Pope_John_Paul_II>.
 }
 
 Question28: Give me all Dutch parties.
@@ -600,7 +596,7 @@ Generated 1 templates:
 >> QUERY: SELECT ?x0 { ?y ?p0 ?x0. } 
 >> SLOTS: y: RESOURCE {Halloween}p0: PROPERTY {date}
 Running entity disambiguation...
-Found 10 entities for slot y: RESOURCE {Halloween}: [http://dbpedia.org/resource/This_Is_Halloween(This_Is_Halloween), http://dbpedia.org/resource/Halloween:_Resurrection(_Resurrection), http://dbpedia.org/resource/Halloween_(The_Office)(Halloween_(The_Office)), http://dbpedia.org/resource/It's_Halloween(s_Halloween), http://dbpedia.org/resource/Halloween(Halloween), http://dbpedia.org/resource/Halloween_(horse)(Halloween_(horse)), http://dbpedia.org/resource/Halloween_in_the_Castro(Halloween_in_the_Castro), http://dbpedia.org/resource/Halloween_Massacre(Halloween_Massacre), http://dbpedia.org/resource/Halloween_Problem(Halloween_Problem), http://dbpedia.org/resource/Happy_Halloween(Happy_Halloween)]
+Found 10 entities for slot y: RESOURCE {Halloween}: [http://dbpedia.org/resource/This_Is_Halloween(This_Is_Halloween), http://dbpedia.org/resource/Halloween_(The_Office)(Halloween_(The_Office)), http://dbpedia.org/resource/Halloween:_Resurrection(_Resurrection), http://dbpedia.org/resource/It's_Halloween(s_Halloween), http://dbpedia.org/resource/Halloween(Halloween), http://dbpedia.org/resource/Halloween_(horse)(Halloween_(horse)), http://dbpedia.org/resource/Halloween_in_the_Castro(Halloween_in_the_Castro), http://dbpedia.org/resource/Halloween_Massacre(Halloween_Massacre), http://dbpedia.org/resource/Halloween_Problem(Halloween_Problem), http://dbpedia.org/resource/Happy_Halloween(Happy_Halloween)]
 Found 10 entities for slot p0: PROPERTY {date}: [http://dbpedia.org/ontology/canonizedDate(canonizedDate), http://dbpedia.org/ontology/birthDate(birthDate), http://dbpedia.org/ontology/releaseDate(releaseDate), http://dbpedia.org/ontology/recordDate(recordDate), http://dbpedia.org/ontology/date(date), http://dbpedia.org/ontology/dateUse(dateUse), http://dbpedia.org/ontology/floodingDate(floodingDate), http://dbpedia.org/ontology/coronationDate(coronationDate), http://dbpedia.org/ontology/acquirementDate(acquirementDate), http://dbpedia.org/ontology/orderDate(orderDate)]
 Running template instantiation...
 Running ranking...
@@ -627,21 +623,34 @@ SELECT ?x0 WHERE {
 Question32: What was the last movie with Alec Guinness?
 Running template generation...
 Generated 7 templates:
->> QUERY: SELECT ?y { ?y ?p1 ?y1. ?y rdf:type ?p0. ?y ?p2 ?y0. FILTER(regex(?y0,'last','i')). } 
->> SLOTS: y1: RESOURCE {Alec Guinness}p0: CLASS {movie}p1: SYMPROPERTY {with}p2: DATATYPEPROPERTY {description}
->> QUERY: SELECT ?y { ?y rdf:type ?p1. ?y ?p2 ?y1. ?y ?p0 ?y0. FILTER(regex(?y1,'last','i')). } 
->> SLOTS: y0: RESOURCE {Alec Guinness}p0: SYMPROPERTY {with}p1: CLASS {movie}p2: DATATYPEPROPERTY {description}
->> QUERY: SELECT ?y { ?y0 ?p0 ?y. } 
->> SLOTS: y0: RESOURCE {Alec Guinness}p0: PROPERTY {last movie}
->> QUERY: SELECT ?y { ?y ?p1 ?y0. ?y1 ?p0 ?y. FILTER(regex(?y0,'last','i')). } 
->> SLOTS: y1: RESOURCE {Alec Guinness}p0: PROPERTY {movie}p1: DATATYPEPROPERTY {description}
 >> QUERY: SELECT ?y ?y1 { ?y0 ?p1 ?y. ?y ?p0 ?y1. FILTER(regex(?y1,'last','i')). } 
 >> SLOTS: y0: RESOURCE {Alec Guinness}p0: DATATYPEPROPERTY {description}p1: PROPERTY {movie}
+>> QUERY: SELECT ?y { ?y ?p1 ?y0. ?y1 ?p0 ?y. FILTER(regex(?y0,'last','i')). } 
+>> SLOTS: y1: RESOURCE {Alec Guinness}p0: PROPERTY {movie}p1: DATATYPEPROPERTY {description}
 >> QUERY: SELECT ?y { ?y0 ?p0 ?y. } 
 >> SLOTS: y0: RESOURCE {Alec Guinness}p0: PROPERTY {last movie}
 >> QUERY: SELECT ?y { ?y rdf:type ?p1. ?y ?p0 ?y0. } 
 >> SLOTS: y0: RESOURCE {Alec Guinness}p0: SYMPROPERTY {with}p1: CLASS {last movie}
+>> QUERY: SELECT ?y { ?y0 ?p0 ?y. } 
+>> SLOTS: y0: RESOURCE {Alec Guinness}p0: PROPERTY {last movie}
+>> QUERY: SELECT ?y { ?y ?p1 ?y1. ?y rdf:type ?p0. ?y ?p2 ?y0. FILTER(regex(?y0,'last','i')). } 
+>> SLOTS: y1: RESOURCE {Alec Guinness}p0: CLASS {movie}p1: SYMPROPERTY {with}p2: DATATYPEPROPERTY {description}
+>> QUERY: SELECT ?y { ?y rdf:type ?p1. ?y ?p2 ?y1. ?y ?p0 ?y0. FILTER(regex(?y1,'last','i')). } 
+>> SLOTS: y0: RESOURCE {Alec Guinness}p0: SYMPROPERTY {with}p1: CLASS {movie}p2: DATATYPEPROPERTY {description}
 Running entity disambiguation...
+Found 0 entities for slot y0: RESOURCE {Alec Guinness}: []
+Found 0 entities for slot p0: DATATYPEPROPERTY {description}: []
+Found 4 entities for slot p1: PROPERTY {movie}: [http://dbpedia.org/ontology/author(author), http://dbpedia.org/ontology/birthPlace(birthPlace), http://dbpedia.org/ontology/deathPlace(deathPlace), http://dbpedia.org/ontology/starring(starring)]
+Found 0 entities for slot y1: RESOURCE {Alec Guinness}: []
+Found 4 entities for slot p0: PROPERTY {movie}: [http://dbpedia.org/ontology/author(author), http://dbpedia.org/ontology/birthPlace(birthPlace), http://dbpedia.org/ontology/deathPlace(deathPlace), http://dbpedia.org/ontology/starring(starring)]
+Found 0 entities for slot p1: DATATYPEPROPERTY {description}: []
+Found 0 entities for slot y0: RESOURCE {Alec Guinness}: []
+Found 0 entities for slot p0: PROPERTY {last movie}: []
+Found 0 entities for slot y0: RESOURCE {Alec Guinness}: []
+Found 2 entities for slot p0: SYMPROPERTY {with}: [http://dbpedia.org/ontology/subsidiary(subsidiary), http://dbpedia.org/ontology/starring(starring)]
+Found 0 entities for slot p1: CLASS {last movie}: []
+Found 0 entities for slot y0: RESOURCE {Alec Guinness}: []
+Found 0 entities for slot p0: PROPERTY {last movie}: []
 Found 0 entities for slot y1: RESOURCE {Alec Guinness}: []
 Found 0 entities for slot p0: CLASS {movie}: []
 Found 2 entities for slot p1: SYMPROPERTY {with}: [http://dbpedia.org/ontology/subsidiary(subsidiary), http://dbpedia.org/ontology/starring(starring)]
@@ -650,27 +659,14 @@ Found 0 entities for slot y0: RESOURCE {Alec Guinness}: []
 Found 2 entities for slot p0: SYMPROPERTY {with}: [http://dbpedia.org/ontology/subsidiary(subsidiary), http://dbpedia.org/ontology/starring(starring)]
 Found 0 entities for slot p1: CLASS {movie}: []
 Found 0 entities for slot p2: DATATYPEPROPERTY {description}: []
-Found 0 entities for slot y0: RESOURCE {Alec Guinness}: []
-Found 0 entities for slot p0: PROPERTY {last movie}: []
-Found 0 entities for slot y1: RESOURCE {Alec Guinness}: []
-Found 4 entities for slot p0: PROPERTY {movie}: [http://dbpedia.org/ontology/author(author), http://dbpedia.org/ontology/birthPlace(birthPlace), http://dbpedia.org/ontology/deathPlace(deathPlace), http://dbpedia.org/ontology/starring(starring)]
-Found 0 entities for slot p1: DATATYPEPROPERTY {description}: []
-Found 0 entities for slot y0: RESOURCE {Alec Guinness}: []
-Found 0 entities for slot p0: DATATYPEPROPERTY {description}: []
-Found 4 entities for slot p1: PROPERTY {movie}: [http://dbpedia.org/ontology/author(author), http://dbpedia.org/ontology/birthPlace(birthPlace), http://dbpedia.org/ontology/deathPlace(deathPlace), http://dbpedia.org/ontology/starring(starring)]
-Found 0 entities for slot y0: RESOURCE {Alec Guinness}: []
-Found 0 entities for slot p0: PROPERTY {last movie}: []
-Found 0 entities for slot y0: RESOURCE {Alec Guinness}: []
-Found 2 entities for slot p0: SYMPROPERTY {with}: [http://dbpedia.org/ontology/subsidiary(subsidiary), http://dbpedia.org/ontology/starring(starring)]
-Found 0 entities for slot p1: CLASS {last movie}: []
 Running template instantiation...
 Running ranking...
 
 SELECT ?y { ?y0 ?p0 ?y }  (Score: NaN)
 SELECT ?y { ?y0 ?p0 ?y }  (Score: NaN)
 SELECT ?y { ?y ?p1 ?y0 . ?y1 <http://dbpedia.org/ontology/birthPlace> ?y FILTER regex(?y0, "last", "i") }  (Score: 0.3333333333333333)
-SELECT ?y ?y1 { ?y0 <http://dbpedia.org/ontology/birthPlace> ?y . ?y ?p0 ?y1 FILTER regex(?y1, "last", "i") }  (Score: 0.3333333333333333)
 SELECT ?y { ?y rdf:type ?p1 . ?y0 <http://dbpedia.org/ontology/starring> ?y }  (Score: 0.3333333333333333)
+SELECT ?y ?y1 { ?y0 <http://dbpedia.org/ontology/birthPlace> ?y . ?y ?p0 ?y1 FILTER regex(?y1, "last", "i") }  (Score: 0.3333333333333333)
 Incorrect answer:
 ( ?uri = <http://dbpedia.org/resource/A_Foreign_Field> )
 ( ?y = <http://www.openlinksw.com/schemas/virtrdf#QuadMapFormat> )
@@ -695,27 +691,27 @@ SELECT ?y WHERE {
 Question33: Which poet wrote the most books?
 Running template generation...
 Generated 3 templates:
->> QUERY: SELECT ?y ?x (COUNT(?y) AS ?c2) { ?y rdf:type ?p1. ?y ?p0 ?x. } GROUP BY ?y ?x ORDER BY DESC(?c2) LIMIT 1 OFFSET 0 
->> SLOTS: p0: PROPERTY {poet}p1: CLASS {books}
->> QUERY: SELECT ?x (COUNT(?y) AS ?c3) { ?y rdf:type ?p1. ?x rdf:type ?p0. ?x ?p2 ?y. } GROUP BY ?x ORDER BY DESC(?c3) LIMIT 1 OFFSET 0 
->> SLOTS: p0: CLASS {poet}p1: CLASS {books}p2: SYMPROPERTY {wrote}
->> QUERY: SELECT ?x (COUNT(?y) AS ?c2) { ?x rdf:type ?p0. ?x ?p1 ?y. } GROUP BY ?x ORDER BY DESC(?c2) LIMIT 1 OFFSET 0 
->> SLOTS: p0: CLASS {poet}p1: PROPERTY {books}
+>> QUERY: SELECT ?y ?x (COUNT(?y) AS ?c2) { ?y ?p1 ?x. ?y rdf:type ?p0. } GROUP BY ?y ?x ORDER BY DESC(?c2) LIMIT 1 OFFSET 0 
+>> SLOTS: p0: CLASS {books}p1: PROPERTY {poet}
+>> QUERY: SELECT ?x (COUNT(?y) AS ?c2) { ?x rdf:type ?p1. ?x ?p0 ?y. } GROUP BY ?x ORDER BY DESC(?c2) LIMIT 1 OFFSET 0 
+>> SLOTS: p0: PROPERTY {books}p1: CLASS {poet}
+>> QUERY: SELECT ?y ?x (COUNT(?y) AS ?c3) { ?x rdf:type ?p1. ?x ?p2 ?y. ?y rdf:type ?p0. } GROUP BY ?y ?x ORDER BY DESC(?c3) LIMIT 1 OFFSET 0 
+>> SLOTS: p0: CLASS {books}p1: CLASS {poet}p2: SYMPROPERTY {wrote}
 Running entity disambiguation...
-Found 1 entities for slot p0: PROPERTY {poet}: [http://dbpedia.org/ontology/birthPlace(birthPlace)]
-Found 1 entities for slot p1: CLASS {books}: [http://dbpedia.org/ontology/Book(Book)]
-Found 0 entities for slot p0: CLASS {poet}: []
-Found 1 entities for slot p1: CLASS {books}: [http://dbpedia.org/ontology/Book(Book)]
+Found 1 entities for slot p0: CLASS {books}: [http://dbpedia.org/ontology/Book(Book)]
+Found 1 entities for slot p1: PROPERTY {poet}: [http://dbpedia.org/ontology/birthPlace(birthPlace)]
+Found 1 entities for slot p0: PROPERTY {books}: [http://dbpedia.org/ontology/author(author)]
+Found 0 entities for slot p1: CLASS {poet}: []
+Found 1 entities for slot p0: CLASS {books}: [http://dbpedia.org/ontology/Book(Book)]
+Found 0 entities for slot p1: CLASS {poet}: []
 Found 1 entities for slot p2: SYMPROPERTY {wrote}: [http://dbpedia.org/ontology/author(author)]
-Found 0 entities for slot p0: CLASS {poet}: []
-Found 1 entities for slot p1: PROPERTY {books}: [http://dbpedia.org/ontology/author(author)]
 Running template instantiation...
 Running ranking...
 
-SELECT ?y ?x (count(?y) AS ?c2) { ?y rdf:type <http://dbpedia.org/ontology/Book> . ?y <http://dbpedia.org/ontology/birthPlace> ?x } GROUP BY ?y ?x ORDER BY DESC(?c2) OFFSET 0 LIMIT 1  (Score: 1.2737891762344926)
-SELECT ?x (count(?y) AS ?c3) { ?y <http://dbpedia.org/ontology/author> ?x . ?y rdf:type <http://dbpedia.org/ontology/Book> . ?x rdf:type ?p0 } GROUP BY ?x ORDER BY DESC(?c3) OFFSET 0 LIMIT 1  (Score: 0.8491927841563284)
-SELECT ?x (count(?y) AS ?c3) { ?y rdf:type <http://dbpedia.org/ontology/Book> . ?x rdf:type ?p0 . ?x <http://dbpedia.org/ontology/author> ?y } GROUP BY ?x ORDER BY DESC(?c3) OFFSET 0 LIMIT 1  (Score: 0.8491927841563284)
-SELECT ?x (count(?y) AS ?c2) { ?x rdf:type ?p0 . ?x <http://dbpedia.org/ontology/author> ?y } GROUP BY ?x ORDER BY DESC(?c2) OFFSET 0 LIMIT 1  (Score: 0.5)
+SELECT ?y ?x (count(?y) AS ?c2) { ?y <http://dbpedia.org/ontology/birthPlace> ?x . ?y rdf:type <http://dbpedia.org/ontology/Book> } GROUP BY ?y ?x ORDER BY DESC(?c2) OFFSET 0 LIMIT 1  (Score: 1.2737891762344926)
+SELECT ?y ?x (count(?y) AS ?c3) { ?y <http://dbpedia.org/ontology/author> ?x . ?y rdf:type <http://dbpedia.org/ontology/Book> . ?x rdf:type ?p1 } GROUP BY ?y ?x ORDER BY DESC(?c3) OFFSET 0 LIMIT 1  (Score: 0.8491927841563284)
+SELECT ?y ?x (count(?y) AS ?c3) { ?x rdf:type ?p1 . ?x <http://dbpedia.org/ontology/author> ?y . ?y rdf:type <http://dbpedia.org/ontology/Book> } GROUP BY ?y ?x ORDER BY DESC(?c3) OFFSET 0 LIMIT 1  (Score: 0.8491927841563284)
+SELECT ?x (count(?y) AS ?c2) { ?x rdf:type ?p1 . ?x <http://dbpedia.org/ontology/author> ?y } GROUP BY ?x ORDER BY DESC(?c2) OFFSET 0 LIMIT 1  (Score: 0.5)
 Incorrect answer:
 ( ?uri = <http://dbpedia.org/resource/H._P._Lovecraft> )
 PREFIX dbo: <http://dbpedia.org/ontology/>
@@ -733,8 +729,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 SELECT ?y ?x (COUNT(?y) AS ?c2) WHERE {
-	?y rdf:type <http://dbpedia.org/ontology/Book>.
 	?y <http://dbpedia.org/ontology/birthPlace> ?x.
+	?y rdf:type <http://dbpedia.org/ontology/Book>.
 }
 GROUP BY ?y ?x 
 ORDER BY DESC(?c2) 
@@ -745,20 +741,20 @@ HttpException: 400
 Question38: Which actor played Chewbacca?
 Running template generation...
 Generated 3 templates:
+>> QUERY: SELECT ?x { ?y ?p0 ?x. } 
+>> SLOTS: y: RESOURCE {Chewbacca}p0: PROPERTY {actor}
+>> QUERY: SELECT ?x { ?y ?p0 ?x. } 
+>> SLOTS: y: RESOURCE {Chewbacca}p0: PROPERTY {actor}
 >> QUERY: SELECT ?x { ?x rdf:type ?p0. ?x ?p1 ?y. } 
 >> SLOTS: y: RESOURCE {Chewbacca}p0: CLASS {actor}p1: SYMPROPERTY {played}
->> QUERY: SELECT ?x { ?y ?p0 ?x. } 
->> SLOTS: y: RESOURCE {Chewbacca}p0: PROPERTY {actor}
->> QUERY: SELECT ?x { ?y ?p0 ?x. } 
->> SLOTS: y: RESOURCE {Chewbacca}p0: PROPERTY {actor}
 Running entity disambiguation...
+Found 2 entities for slot y: RESOURCE {Chewbacca}: [http://dbpedia.org/resource/Chewbacca(Chewbacca), http://dbpedia.org/resource/Chewbacca_defense(Chewbacca_defense)]
+Found 2 entities for slot p0: PROPERTY {actor}: [http://dbpedia.org/ontology/birthPlace(birthPlace), http://dbpedia.org/ontology/starring(starring)]
+Found 2 entities for slot y: RESOURCE {Chewbacca}: [http://dbpedia.org/resource/Chewbacca(Chewbacca), http://dbpedia.org/resource/Chewbacca_defense(Chewbacca_defense)]
+Found 2 entities for slot p0: PROPERTY {actor}: [http://dbpedia.org/ontology/birthPlace(birthPlace), http://dbpedia.org/ontology/starring(starring)]
 Found 2 entities for slot y: RESOURCE {Chewbacca}: [http://dbpedia.org/resource/Chewbacca(Chewbacca), http://dbpedia.org/resource/Chewbacca_defense(Chewbacca_defense)]
 Found 3 entities for slot p0: CLASS {actor}: [http://dbpedia.org/ontology/Actor(Actor), http://dbpedia.org/ontology/AdultActor(AdultActor), http://dbpedia.org/ontology/VoiceActor(VoiceActor)]
 Found 2 entities for slot p1: SYMPROPERTY {played}: [http://dbpedia.org/ontology/author(author), http://dbpedia.org/ontology/starring(starring)]
-Found 2 entities for slot y: RESOURCE {Chewbacca}: [http://dbpedia.org/resource/Chewbacca(Chewbacca), http://dbpedia.org/resource/Chewbacca_defense(Chewbacca_defense)]
-Found 2 entities for slot p0: PROPERTY {actor}: [http://dbpedia.org/ontology/birthPlace(birthPlace), http://dbpedia.org/ontology/starring(starring)]
-Found 2 entities for slot y: RESOURCE {Chewbacca}: [http://dbpedia.org/resource/Chewbacca(Chewbacca), http://dbpedia.org/resource/Chewbacca_defense(Chewbacca_defense)]
-Found 2 entities for slot p0: PROPERTY {actor}: [http://dbpedia.org/ontology/birthPlace(birthPlace), http://dbpedia.org/ontology/starring(starring)]
 Running template instantiation...
 Running ranking...
 
@@ -766,7 +762,7 @@ SELECT ?x { ?x rdf:type <http://dbpedia.org/ontology/Actor> . ?x <http://dbpedia
 SELECT ?x { <http://dbpedia.org/resource/Chewbacca_defense> <http://dbpedia.org/ontology/starring> ?x . ?x rdf:type <http://dbpedia.org/ontology/Actor> }  (Score: 1.4814267139434814)
 SELECT ?x { <http://dbpedia.org/resource/Chewbacca_defense> <http://dbpedia.org/ontology/birthPlace> ?x }  (Score: 1.3269019694328308)
 SELECT ?x { <http://dbpedia.org/resource/Chewbacca_defense> <http://dbpedia.org/ontology/birthPlace> ?x }  (Score: 1.3269019694328308)
-SELECT ?x { <http://dbpedia.org/resource/Chewbacca> <http://dbpedia.org/ontology/starring> ?x . ?x rdf:type <http://dbpedia.org/ontology/Actor> }  (Score: 1.2634920676549275)
+SELECT ?x { ?x rdf:type <http://dbpedia.org/ontology/Actor> . ?x <http://dbpedia.org/ontology/starring> <http://dbpedia.org/resource/Chewbacca> }  (Score: 1.2634920676549275)
 Incorrect answer:
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX res: <http://dbpedia.org/resource/>
@@ -785,24 +781,24 @@ SELECT ?x WHERE {
 Question44: Which actor was casted in the most movies?
 Running template generation...
 Generated 2 templates:
->> QUERY: SELECT ?y ?x (COUNT(?y) AS ?c2) { ?x ?p1 ?y. ?x rdf:type ?p3. ?y rdf:type ?p0. } GROUP BY ?y ?x ORDER BY DESC(?c2) LIMIT 1 OFFSET 0 
->> SLOTS: p0: CLASS {movies}p1: SYMPROPERTY {casted}p3: CLASS {actor}
->> QUERY: SELECT ?x (COUNT(?y) AS ?c2) { ?x rdf:type ?p0. ?x ?p1 ?y. } GROUP BY ?x ORDER BY DESC(?c2) LIMIT 1 OFFSET 0 
->> SLOTS: p0: CLASS {actor}p1: PROPERTY {movies}
+>> QUERY: SELECT ?x (COUNT(?y) AS ?c2) { ?x rdf:type ?p1. ?x ?p0 ?y. } GROUP BY ?x ORDER BY DESC(?c2) LIMIT 1 OFFSET 0 
+>> SLOTS: p0: PROPERTY {movies}p1: CLASS {actor}
+>> QUERY: SELECT ?x (COUNT(?y) AS ?c3) { ?y rdf:type ?p1. ?x rdf:type ?p0. ?x ?p2 ?y. } GROUP BY ?x ORDER BY DESC(?c3) LIMIT 1 OFFSET 0 
+>> SLOTS: p0: CLASS {actor}p1: CLASS {movies}p2: SYMPROPERTY {casted}
 Running entity disambiguation...
-Found 0 entities for slot p0: CLASS {movies}: []
-Found 0 entities for slot p1: SYMPROPERTY {casted}: []
-Found 3 entities for slot p3: CLASS {actor}: [http://dbpedia.org/ontology/Actor(Actor), http://dbpedia.org/ontology/AdultActor(AdultActor), http://dbpedia.org/ontology/VoiceActor(VoiceActor)]
+Found 0 entities for slot p0: PROPERTY {movies}: []
+Found 3 entities for slot p1: CLASS {actor}: [http://dbpedia.org/ontology/Actor(Actor), http://dbpedia.org/ontology/AdultActor(AdultActor), http://dbpedia.org/ontology/VoiceActor(VoiceActor)]
 Found 3 entities for slot p0: CLASS {actor}: [http://dbpedia.org/ontology/Actor(Actor), http://dbpedia.org/ontology/AdultActor(AdultActor), http://dbpedia.org/ontology/VoiceActor(VoiceActor)]
-Found 0 entities for slot p1: PROPERTY {movies}: []
+Found 0 entities for slot p1: CLASS {movies}: []
+Found 0 entities for slot p2: SYMPROPERTY {casted}: []
 Running template instantiation...
 Running ranking...
 
-SELECT ?x (count(?y) AS ?c2) { ?x rdf:type <http://dbpedia.org/ontology/Actor> . ?x ?p1 ?y } GROUP BY ?x ORDER BY DESC(?c2) OFFSET 0 LIMIT 1  (Score: 0.8952381014823914)
-SELECT ?y ?x (count(?y) AS ?c2) { ?x ?p1 ?y . ?x rdf:type <http://dbpedia.org/ontology/Actor> . ?y rdf:type ?p0 } GROUP BY ?y ?x ORDER BY DESC(?c2) OFFSET 0 LIMIT 1  (Score: 0.5968254009882609)
-SELECT ?x (count(?y) AS ?c2) { ?x rdf:type <http://dbpedia.org/ontology/AdultActor> . ?x ?p1 ?y } GROUP BY ?x ORDER BY DESC(?c2) OFFSET 0 LIMIT 1  (Score: 0.5470168833354587)
-SELECT ?y ?x (count(?y) AS ?c2) { ?x ?p1 ?y . ?x rdf:type <http://dbpedia.org/ontology/AdultActor> . ?y rdf:type ?p0 } GROUP BY ?y ?x ORDER BY DESC(?c2) OFFSET 0 LIMIT 1  (Score: 0.36467792222363915)
-SELECT ?x (count(?y) AS ?c2) { ?x rdf:type <http://dbpedia.org/ontology/VoiceActor> . ?x ?p1 ?y } GROUP BY ?x ORDER BY DESC(?c2) OFFSET 0 LIMIT 1  (Score: 0.24795321292347375)
+SELECT ?x (count(?y) AS ?c2) { ?x rdf:type <http://dbpedia.org/ontology/Actor> . ?x ?p0 ?y } GROUP BY ?x ORDER BY DESC(?c2) OFFSET 0 LIMIT 1  (Score: 0.8952381014823914)
+SELECT ?x (count(?y) AS ?c3) { ?y rdf:type ?p1 . ?x rdf:type <http://dbpedia.org/ontology/Actor> . ?x ?p2 ?y } GROUP BY ?x ORDER BY DESC(?c3) OFFSET 0 LIMIT 1  (Score: 0.5968254009882609)
+SELECT ?x (count(?y) AS ?c2) { ?x rdf:type <http://dbpedia.org/ontology/AdultActor> . ?x ?p0 ?y } GROUP BY ?x ORDER BY DESC(?c2) OFFSET 0 LIMIT 1  (Score: 0.5470168833354587)
+SELECT ?x (count(?y) AS ?c3) { ?y rdf:type ?p1 . ?x rdf:type <http://dbpedia.org/ontology/AdultActor> . ?x ?p2 ?y } GROUP BY ?x ORDER BY DESC(?c3) OFFSET 0 LIMIT 1  (Score: 0.36467792222363915)
+SELECT ?x (count(?y) AS ?c2) { ?x rdf:type <http://dbpedia.org/ontology/VoiceActor> . ?x ?p0 ?y } GROUP BY ?x ORDER BY DESC(?c2) OFFSET 0 LIMIT 1  (Score: 0.24795321292347375)
 Incorrect answer:
 ( ?uri = <http://dbpedia.org/resource/Hema_Malini> )
 ( ?x = <http://dbpedia.org/resource/Leehom_Wang> ) ( ?c2 = 90 )
@@ -823,7 +819,7 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 SELECT ?x (COUNT(?y) AS ?c2) WHERE {
 	?x rdf:type <http://dbpedia.org/ontology/Actor>.
-	?x ?p1 ?y.
+	?x ?p0 ?y.
 }
 GROUP BY ?x 
 ORDER BY DESC(?c2) 
@@ -832,14 +828,14 @@ LIMIT 1 OFFSET 0
 Question46: Give me all Australian metalcore bands.
 Running template generation...
 Generated 2 templates:
->> QUERY: SELECT ?y { ?y rdf:type ?p0. } 
->> SLOTS: p0: CLASS {Australian metalcore bands}
 >> QUERY: SELECT ?y { ?y ?p1 ?y0. ?y rdf:type ?p0. FILTER(regex(?y0,'Australianmetalcore','i')). } 
 >> SLOTS: p0: CLASS {bands}p1: DATATYPEPROPERTY {description}
+>> QUERY: SELECT ?y { ?y rdf:type ?p0. } 
+>> SLOTS: p0: CLASS {Australian metalcore bands}
 Running entity disambiguation...
-Found 0 entities for slot p0: CLASS {Australian metalcore bands}: []
 Found 2 entities for slot p0: CLASS {bands}: [http://dbpedia.org/ontology/Band(Band), http://dbpedia.org/ontology/Ligament(Ligament)]
 Found 0 entities for slot p1: DATATYPEPROPERTY {description}: []
+Found 0 entities for slot p0: CLASS {Australian metalcore bands}: []
 Running template instantiation...
 Running ranking...
 
@@ -880,11 +876,11 @@ Found 2 entities for slot p1: SYMPROPERTY {shot}: [http://dbpedia.org/ontology/b
 Running template instantiation...
 Running ranking...
 
-SELECT ?x ?x0 { ?x <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Death_of_Carlo_Giuliani> . ?x <http://dbpedia.org/ontology/birthDate> ?x0 }  (Score: 1.3545934175216172)
 SELECT ?x ?x0 { <http://dbpedia.org/resource/Death_of_Carlo_Giuliani> <http://dbpedia.org/ontology/birthPlace> ?x . ?x <http://dbpedia.org/ontology/birthDate> ?x0 }  (Score: 1.3545934175216172)
-SELECT ?x ?x0 { <http://dbpedia.org/resource/Death_of_Carlo_Giuliani> <http://dbpedia.org/ontology/birthPlace> ?x . ?x <http://dbpedia.org/ontology/date> ?x0 }  (Score: 1.2205477473887867)
+SELECT ?x ?x0 { ?x <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Death_of_Carlo_Giuliani> . ?x <http://dbpedia.org/ontology/birthDate> ?x0 }  (Score: 1.3545934175216172)
 SELECT ?x ?x0 { ?x <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Death_of_Carlo_Giuliani> . ?x <http://dbpedia.org/ontology/date> ?x0 }  (Score: 1.2205477473887867)
-SELECT ?x ?x0 { <http://dbpedia.org/resource/Death_of_Carlo_Giuliani> <http://dbpedia.org/ontology/birthPlace> ?x . ?x <http://dbpedia.org/ontology/releaseDate> ?x0 }  (Score: 1.1550370483845882)
+SELECT ?x ?x0 { <http://dbpedia.org/resource/Death_of_Carlo_Giuliani> <http://dbpedia.org/ontology/birthPlace> ?x . ?x <http://dbpedia.org/ontology/date> ?x0 }  (Score: 1.2205477473887867)
+SELECT ?x ?x0 { ?x <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Death_of_Carlo_Giuliani> . ?x <http://dbpedia.org/ontology/releaseDate> ?x0 }  (Score: 1.1550370483845882)
 Incorrect answer:
 PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX res: <http://dbpedia.org/resource/>
@@ -896,7 +892,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 SELECT ?x ?x0 WHERE {
-	?x <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Death_of_Carlo_Giuliani>.
+	<http://dbpedia.org/resource/Death_of_Carlo_Giuliani> <http://dbpedia.org/ontology/birthPlace> ?x.
 	?x <http://dbpedia.org/ontology/birthDate> ?x0.
 }
 
