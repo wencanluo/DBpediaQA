@@ -12,8 +12,8 @@ def getNEL(text = ""):
     # the input is a sentence with name entity result
     params = urllib.urlencode({'type': 'agdistis', 'text': text})
     headers = {}
-    conn = httplib.HTTPConnection("127.0.0.1:8080")
-    conn.request("POST", "/AGDISTIS", params, headers)
+    conn = httplib.HTTPConnection("139.18.2.164:8080")
+    conn.request("POST", "/AGDISTIS_ZH", params, headers)
     response = conn.getresponse()
     
     try:
@@ -63,7 +63,11 @@ if __name__ == '__main__':
     
     #input = '../../benchmark/qald4/qald-4_multilingual_test_questions_zh_ner.txt'
     #output = '../../benchmark/qald4/qald-4_multilingual_test_questions_zh_disambigution.txt'
-    data = getNEL('我 是 <entity>中国</entity> 人')
+    
+    reload(sys)
+    sys.setdefaultencoding('utf8')
+    
+    data = getNEL('<entity>北京</entity> 是 <entity>中国</entity> 的首都')
     links = extractDisambiguationLink(data)
     print links
     

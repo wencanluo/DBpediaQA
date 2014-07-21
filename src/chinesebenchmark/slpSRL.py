@@ -12,7 +12,21 @@ def getSRL(text=''):
     result = urllib2.urlopen("%sapi_key=%s&text=%s&format=%s&pattern=%s" % (url_get_base,api_key,text,format,pattern))
     #print type(result)
     content = result.read()
+    
     return content
+
+def getPOS(text=''):
+    format = 'json'
+    pattern = 'pos'
+    result = urllib2.urlopen("%sapi_key=%s&text=%s&format=%s&pattern=%s" % (url_get_base,api_key,text,format,pattern))
+    #print type(result)
+    content = result.read()
+    
+    content = json.loads(content, encoding = 'utf-8')
+    text = []
+    for phrase in content[0][0]: #assume the input is only one sentence
+        text.append(phrase['cont'] + '/' + phrase['pos'])
+    return " ".join(text)
 
 def getNER(text=''):
     #input: a Chinese sentence
@@ -35,9 +49,9 @@ def parseNER(text=''):
             text.append(phrase['cont']) 
         else:
             text.append('<entity>' + phrase['cont'] + '</entity>')
-    return " ".join(text)
+    return " ".join(text)    
 
 if __name__ == '__main__':
 	#print getNER('我是中国人')
-	print parseNER('德国的哪些州是由社會民主黨统治？')
+	print getPOS('列出所有丹·布朗写的书')
     
