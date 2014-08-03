@@ -12,8 +12,10 @@ def getNEL(text = ""):
     # the input is a sentence with name entity result
     params = urllib.urlencode({'type': 'agdistis', 'text': text})
     headers = {}
-    conn = httplib.HTTPConnection("139.18.2.164:8080")
-    conn.request("POST", "/AGDISTIS_ZH", params, headers)
+    #conn = httplib.HTTPConnection("139.18.2.164:8080")
+    #conn.request("POST", "/AGDISTIS_ZH", params, headers)
+    conn = httplib.HTTPConnection("127.0.0.1:8080")
+    conn.request("POST", "/AGDISTIS", params, headers)
     response = conn.getresponse()
     
     try:
@@ -67,7 +69,9 @@ if __name__ == '__main__':
     reload(sys)
     sys.setdefaultencoding('utf8')
     
-    data = getNEL('<entity>北京</entity> 是 <entity>中国</entity> 的首都')
+    data = getNEL('<entity>北京</entity>和 <entity>上海</entity>是 <entity>中国</entity> 的政治经济中心')
+    #data = getNEL('列出 所有 <entity>丹·布朗</entity> 的 书')
+    
     links = extractDisambiguationLink(data)
     print links
     
