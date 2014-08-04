@@ -229,7 +229,45 @@ class MappingTranslator:
                         continue
         
         sys.stdout = SavedStdOut
-
+    
+    def translate_raw_infobox_property_definitions(self):
+        # read the instance type
+        input = self.dataDirectory + "/" + self.outputLangaugeTag + "/raw_infobox_property_definitions_"+self.outputLangaugeTag+".ttl.old"
+        output = self.dataDirectory + "/" + self.outputLangaugeTag + "/raw_infobox_property_definitions_"+self.outputLangaugeTag+".ttl"
+        
+        SavedStdOut = sys.stdout
+        sys.stdout = codecs.open(output, 'wb', 'utf8')
+    
+        with open(input, 'r') as f:
+            for line in f:
+                line = line.strip()
+                line = line.replace("zh.dbpedia.org", "dbpedia.org")
+                print line
+        
+        sys.stdout = SavedStdOut
+    
+    def extractPropertyNames(self, output):
+        # read the label type
+        input = self.dataDirectory + "/" + self.outputLangaugeTag + "/raw_infobox_property_definitions_"+self.outputLangaugeTag+".ttl.old"
+        
+        SavedStdOut = sys.stdout
+        sys.stdout = codecs.open(output, 'wb', 'utf8')
+        
+        dict = {}
+        
+        with open(input, 'r') as f:
+            for line in f:
+                g = re.search("<(http://zh.dbpedia\.org/property/.*)>\s*<.*>\s*\"(.*)\"@zh\s*.", line)
+                if g != None:
+                    try:
+                        dict[g.group(2).strip()] = g.group(1).strip()
+                    except Exception:
+                        continue
+        
+        sys.stdout = SavedStdOut
+        
+        fio.SaveDict(dict, self.dataDirectory + "/" + self.outputLangaugeTag + "/" + output + ".txt")
+        
 if __name__ == '__main__':
     reload(sys)
     sys.setdefaultencoding('utf8')
@@ -242,6 +280,8 @@ if __name__ == '__main__':
     #trans.translateMppingbasedproperties()
     #trans.translateSpecificMappingbasedProperties()
     #trans.translateLabels()
-    trans.translateRedirectsTransitive()
+    #trans.translateRedirectsTransitive()
+    #trans.translate_raw_infobox_property_definitions()
+    trans.extractPropertyNames("property_names_zh")
     print "Done"
     
