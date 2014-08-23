@@ -53,6 +53,6 @@ def parseNER(text=''):
 
 if __name__ == '__main__':
 	#print getNER('我是中国人')
-	print getPOS('列出所有丹·布朗的书')
+	print getPOS('牛津大学 的 官方颜色')
     #print parseNER('列出所有丹·布朗的书')
     

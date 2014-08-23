@@ -588,7 +588,7 @@ WHERE {
 
 <question aggregation="true" answertype="resource" id="17" onlydbo="true">
 <string lang="en"><![CDATA[Give me all cities in New Jersey with more than 100000 inhabitants.]]></string>
-<string lang="zh"><![CDATA[所有在新泽西州超过10万居民的城市​​。]]></string>
+<string lang="zh"><![CDATA[所有在新泽西州超过10万居民的城市。]]></string>
 <string lang="de"><![CDATA[Gib mir alle Städte in New Jersey, die mehr als 100000 Einwohner haben.]]></string>
 <string lang="es"><![CDATA[Dame todas las cuidades en New Jersey que tengan más de 100000 habitantes.]]></string>
 <string lang="it"><![CDATA[Dammi tutte le città del New Jersey con più di 100000 abitanti.]]></string>

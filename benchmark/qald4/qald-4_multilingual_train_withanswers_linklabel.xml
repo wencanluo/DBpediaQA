@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf8'?>
+<?xml version='1.0'?>
 <dataset id="qald-4_multilingual_train">
 
 <question aggregation="true" answertype="number" id="132" onlydbo="true">
@@ -358,7 +358,7 @@ WHERE {
 <link entity="德國社會民主黨" lang="zh">http://dbpedia.org/resource/德國社會民主黨</link>
 <link entity="Social_Democratic_Party_of_Germany" lang="en">http://dbpedia.org/resource/Social_Democratic_Party_of_Germany</link>
 <string lang="en">Which states of Germany are governed by the Social Democratic Party?</string>
-<string lang="zh">哪些州是由德國社會民主黨统治？</string>
+<string lang="zh">哪些州的执政党是德國社會民主黨？</string>
 <string lang="de">Welche Bundesländer in Deutschland werden von der SPD regiert?</string>
 <string lang="es">¿En qué estados federales de Alemania gobierna la SPD?</string>
 <string lang="it">In quali stati federati della Germania governa il Partito Socialista Democratico?</string>
@@ -616,7 +616,7 @@ WHERE {
 <link entity="新泽西州" lang="zh">http://dbpedia.org/resource/新泽西州</link>
 <link entity="New_Jersey" lang="en">http://dbpedia.org/resource/New_Jersey</link>
 <string lang="en">Give me all cities in New Jersey with more than 100000 inhabitants.</string>
-<string lang="zh">所有在新泽西州超过10万居民的城市​​。</string>
+<string lang="zh">所有在新泽西州总人口超过10万的城市。</string>
 <string lang="de">Gib mir alle Städte in New Jersey, die mehr als 100000 Einwohner haben.</string>
 <string lang="es">Dame todas las cuidades en New Jersey que tengan más de 100000 habitantes.</string>
 <string lang="it">Dammi tutte le città del New Jersey con più di 100000 abitanti.</string>
@@ -4899,7 +4899,7 @@ WHERE {
 
 <question aggregation="true" answertype="resource" id="69" onlydbo="false">
 <string lang="en">Which caves have more than 3 entrances?</string>
-<string lang="zh">哪些洞穴有3个以上的入口？</string>
+<string lang="zh">哪些洞穴的入口数量大于3？</string>
 <string lang="de">Welche Höhlen haben mehr als 3 Eingänge?</string>
 <string lang="es">¿Qué cuevas tienen más de 3 entradas?</string>
 <string lang="it">Quali grotte hanno più di 3 entrate?</string>
@@ -5593,7 +5593,7 @@ WHERE {
 <link entity="德国" lang="zh">http://dbpedia.org/resource/德国</link>
 <link entity="Germany" lang="en">http://dbpedia.org/resource/Germany</link>
 <string lang="en">Which German cities have more than 250000 inhabitants?</string>
-<string lang="zh">德国的哪些城市拥有超过250000的居民？</string>
+<string lang="zh">德国的哪些城市人口超过250000？</string>
 <string lang="de">Welche deutschen Städte haben mehr als 250000 Einwohner?</string>
 <string lang="es">¿Qué ciudades alemanas tienen más de 250000 habitantes?</string>
 <string lang="it">Quali città tedesche hanno più di 250000 abitanti?</string>
@@ -10189,7 +10189,7 @@ WHERE {
 <string lang="nl">Wie schreef het Poolse volkslied?</string>
 <string lang="ro">Cine a scris versurile pentru imnul național al Poloniei?</string>
 <keywords lang="en">Poland, national anthem, write, lyrics</keywords>
-<keywords lang="zh">波蘭, 写, 歌词</keywords>
+<keywords lang="zh">波蘭, 国歌, 歌词</keywords>
 <keywords lang="de">Polen, Nationalhymne, schreiben, Text</keywords>
 <keywords lang="es">texto, escribió, himno, Polonia</keywords>
 <keywords lang="it">Polonia, inno nazionale, scrivere, testo</keywords>
@@ -12758,7 +12758,7 @@ WHERE {
 <link entity="IBM" lang="zh">http://dbpedia.org/resource/IBM</link>
 <link entity="IBM" lang="en">http://dbpedia.org/resource/IBM</link>
 <string lang="en">How many employees does IBM have?</string>
-<string lang="zh">IBM公司有多少名员工？</string>
+<string lang="zh">IBM公司的员工人数是多少？</string>
 <string lang="de">Wieviele Angestellte hat IBM?</string>
 <string lang="es">¿Cuántos empleados tiene IBM?</string>
 <string lang="it">Quanti dipendenti ha IBM?</string>
@@ -13703,7 +13703,7 @@ WHERE {
 <link entity="蓋茨堡之役" lang="zh">http://dbpedia.org/resource/蓋茨堡之役</link>
 <link entity="Battle_of_Gettysburg" lang="en">http://dbpedia.org/resource/Battle_of_Gettysburg</link>
 <string lang="en">When was the Battle of Gettysburg?</string>
-<string lang="zh">蓋茨堡之役是什么时候？</string>
+<string lang="zh">蓋茨堡之役的时间？</string>
 <string lang="de">Wann fand die Schlacht von Gettysburg statt?</string>
 <string lang="es">¿Cuándo tuvo lugar la batalla de Gettysburg?</string>
 <string lang="it">Quando ha avuto luogo la battaglia di Gettysburg?</string>
@@ -13861,7 +13861,7 @@ WHERE {
 <link entity="马里博尔" lang="zh">http://dbpedia.org/resource/马里博尔</link>
 <link entity="Maribor" lang="en">http://dbpedia.org/resource/Maribor</link>
 <string lang="en">How many inhabitants does Maribor have?</string>
-<string lang="zh">马里博尔有多少居民？</string>
+<string lang="zh">马里博尔的总人口是多少？</string>
 <string lang="de">Wieviele Einwohner hat Maribor?</string>
 <string lang="es">¿Cuántos habitantes tiene Maribor?</string>
 <string lang="it">Quanti abitanti ha Maribor?</string>
@@ -14564,7 +14564,7 @@ WHERE {
 <link entity="环球影业" lang="zh">http://dbpedia.org/resource/环球影业</link>
 <link entity="Universal_Studios" lang="en">http://dbpedia.org/resource/Universal_Studios</link>
 <string lang="en">Who is the owner of Universal Studios?</string>
-<string lang="zh">谁是环球影业的老板？</string>
+<string lang="zh">谁是环球影业的拥有者？</string>
 <string lang="de">Wem gehören die Universal Studios?</string>
 <string lang="es">¿A quién le pertenecen los Universal Studios?</string>
 <string lang="it">Chi è il proprietario degli Universal Studios?</string>
@@ -14936,7 +14936,7 @@ WHERE {
 <link entity="英特尔" lang="zh">http://dbpedia.org/resource/英特尔</link>
 <link entity="Intel" lang="en">http://dbpedia.org/resource/Intel</link>
 <string lang="en">Who founded Intel?</string>
-<string lang="zh">谁创立的英特尔？</string>
+<string lang="zh">英特尔的创始人？</string>
 <string lang="de">Wer hat Intel gegründet?</string>
 <string lang="es">¿Quién fundó Intel?</string>
 <string lang="it">Chi ha fondato Intel?</string>
@@ -23826,7 +23826,7 @@ WHERE {
 <link entity="阿姆斯特丹自由大学" lang="zh">http://dbpedia.org/resource/阿姆斯特丹自由大学</link>
 <link entity="Vrije_Universiteit" lang="en">http://dbpedia.org/resource/Vrije_Universiteit</link>
 <string lang="en">How many students does the Free University in Amsterdam have?</string>
-<string lang="zh">阿姆斯特丹自由大学有多少学生？</string>
+<string lang="zh">阿姆斯特丹自由大学的学生人数？</string>
 <string lang="de">Wieviele Studenten hat die Freie Universität in Amsterdam?</string>
 <string lang="es">¿Cuántos estudiantes tiene la Universidad Libre de Amsterdam?</string>
 <string lang="it">Quanti studenti ci sono nella Libera Università di Amsterdam?</string>

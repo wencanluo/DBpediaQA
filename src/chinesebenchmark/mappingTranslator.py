@@ -257,10 +257,11 @@ class MappingTranslator:
         
         with open(input, 'r') as f:
             for line in f:
-                g = re.search("<(http://zh.dbpedia\.org/property/.*)>\s*<.*>\s*\"(.*)\"@zh\s*.", line)
+                g = re.search("<http://zh.dbpedia\.org/property/(.*)>\s*<.*>\s*\"(.*)\"@zh\s*.", line)
                 if g != None:
                     try:
-                        dict[g.group(2).strip()] = g.group(1).strip()
+                        #dict[g.group(2).strip()] = g.group(1).strip()
+                        dict[g.group(2).strip()] = "http://dbpedia.org/ontology/" + g.group(1).strip()
                     except Exception:
                         continue
         

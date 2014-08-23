@@ -12,10 +12,10 @@ def getNEL(text = ""):
     # the input is a sentence with name entity result
     params = urllib.urlencode({'type': 'agdistis', 'text': text})
     headers = {}
-    conn = httplib.HTTPConnection("139.18.2.164:8080")
-    conn.request("POST", "/AGDISTIS_ZH", params, headers)
-    #conn = httplib.HTTPConnection("127.0.0.1:8080")
-    #conn.request("POST", "/AGDISTIS", params, headers)
+    #conn = httplib.HTTPConnection("139.18.2.164:8080")
+    #conn.request("POST", "/AGDISTIS_ZH", params, headers)
+    conn = httplib.HTTPConnection("127.0.0.1:8080")
+    conn.request("POST", "/AGDISTIS", params, headers)
     response = conn.getresponse()
     
     try:

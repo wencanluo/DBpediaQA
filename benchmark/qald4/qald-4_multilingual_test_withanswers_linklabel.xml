@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='utf8'?>
+<?xml version='1.0'?>
 <dataset id="qald-4_multilingual_test">
 <question aggregation="false" answertype="number" id="31" onlydbo="true">
 <link entity="加拿大" lang="zh">http://dbpedia.org/resource/加拿大</link>
 <link entity="Canada" lang="en">http://dbpedia.org/resource/Canada</link>
 <string lang="en">How many inhabitants does the largest city in Canada have?</string>
-<string lang="zh">加拿大最大的城市有多少居民？</string>
+<string lang="zh">加拿大最大的城市的人口数是多少？</string>
 <string lang="de">Wieviele Einwohner hat die größte Stadt in Kanada?</string>
 <string lang="es">¿Cuántos habitantes tiene la ciudad más grande de Canadá?</string>
 <string lang="it">Quanti abitanti ha la città più grande del Canada?</string>
@@ -56,7 +56,7 @@ WHERE {
 <link entity="珠穆朗瑪峰" lang="zh">http://dbpedia.org/resource/珠穆朗瑪峰</link>
 <link entity="Mount_Everest" lang="en">http://dbpedia.org/resource/Mount_Everest</link>
 <string lang="en">Who was the first to climb Mount Everest?</string>
-<string lang="zh">谁第一个登上珠穆朗瑪峰？</string>
+<string lang="zh">谁首次登顶珠穆朗瑪峰？</string>
 <string lang="de">Wer hat als erstes den Mount Everest bestiegen?</string>
 <string lang="es">¿Quién fue el primero en ascender al Monte Everest?</string>
 <string lang="it">Chi è stato il primo a scalare il Monte Everest?</string>
@@ -88,7 +88,7 @@ WHERE {
 </question>
 <question aggregation="true" answertype="number" id="4" onlydbo="true">
 <string lang="en">How many programming languages are there?</string>
-<string lang="zh">有多少种编程语言？</string>
+<string lang="zh">有多少编程语言？</string>
 <string lang="de">Wieviele Programmiersprachen gibt es?</string>
 <string lang="es">¿Cuántos lenguajes de programación existen?</string>
 <string lang="it">Quanti linguaggi di programmazione esistono?</string>
@@ -127,7 +127,7 @@ WHERE {
 <string lang="nl">Wat is de officiële kleur van de universiteit Oxford?</string>
 <string lang="ro">Care este culoarea oficială a Universității Oxford?</string>
 <keywords lang="en">University of Oxford, official color</keywords>
-<keywords lang="zh">牛津大学的官方色彩</keywords>
+<keywords lang="zh">牛津大学的官方颜色</keywords>
 <keywords lang="de">Universität Oxford, offizielle Farbe</keywords>
 <keywords lang="es">Universidad de Oxford, color oficial</keywords>
 <keywords lang="it">colore ufficiale, Università di Oxford</keywords>
@@ -3127,7 +3127,7 @@ WHERE {
 <link entity="亚伯拉罕·林肯" lang="zh">http://dbpedia.org/resource/亚伯拉罕·林肯</link>
 <link entity="Abraham_Lincoln" lang="en">http://dbpedia.org/resource/Abraham_Lincoln</link>
 <string lang="en">Does Abraham Lincoln's death place have a website?</string>
-<string lang="zh">亚伯拉罕·林肯的死的地方有​​一个网站么？</string>
+<string lang="zh">亚伯拉罕·林肯的死亡地方有​​一个网站么？</string>
 <string lang="de">Hat Abraham Lincolns Sterbeort eine Webseite?</string>
 <string lang="es">¿Tiene el lugar de nacimiento de Abraham Lincol una página web?</string>
 <string lang="it">Il luogo di morte di Abraham Lincoln ha un sito web?</string>
@@ -3157,7 +3157,7 @@ WHERE {
 </question>
 <question aggregation="false" answertype="number" id="44" onlydbo="true">
 <string lang="en">How deep is Lake Placid?</string>
-<string lang="zh">普莱西德湖有多深？</string>
+<string lang="zh">普莱西德湖的深度？</string>
 <string lang="de">Wie tief ist Lake Placid?</string>
 <string lang="es">Cómo de hondo es el Lago Placid?</string>
 <string lang="it">Quanto è profondo il Lake Placid?</string>
@@ -3254,7 +3254,7 @@ OFFSET 0 LIMIT 1</query>
 <link entity="巴赫" lang="zh">http://dbpedia.org/resource/约翰·塞巴斯蒂安·巴赫</link>
 <link entity="Johann_Sebastian_Bach" lang="en">http://dbpedia.org/resource/Johann_Sebastian_Bach</link>
 <string lang="en">Where was Bach born?</string>
-<string lang="zh">巴赫是在哪里出生的？</string>
+<string lang="zh">巴赫的出生地在哪里？</string>
 <string lang="de">Wo wurde Bach geboren?</string>
 <string lang="es">¿Dónde nació Bach?</string>
 <string lang="it">Dove è nato Bach?</string>
@@ -3781,7 +3781,7 @@ OFFSET 0 LIMIT 1</query>
 <link entity="德国" lang="zh">http://dbpedia.org/resource/德国</link>
 <link entity="Germany" lang="en">http://dbpedia.org/resource/Germany</link>
 <string lang="en">Which rivers flow into a German lake?</string>
-<string lang="zh">哪些河流流入德国湖？</string>
+<string lang="zh">哪些河流入德国湖？</string>
 <string lang="de">Welche Flüsse fließen in deutsche Seen?</string>
 <string lang="es">¿Qué ríos desembocan en un lago alemán?</string>
 <string lang="it">Quali fiumi sfociano in un lago tedesco?</string>
@@ -4261,7 +4261,7 @@ WHERE {
 <link entity="荷兰" lang="zh">http://dbpedia.org/resource/荷兰</link>
 <link entity="Netherlands" lang="en">http://dbpedia.org/resource/Netherlands</link>
 <string lang="en">Give me all Dutch parties.</string>
-<string lang="zh">荷兰所有的党派。</string>
+<string lang="zh">荷兰所有的政党。</string>
 <string lang="de">Gib mir alle Niederländischen Parteien.</string>
 <string lang="es">Dame todos los partidos políticos holandeses</string>
 <string lang="it">Dammi tutti i partiti politici olandesi.</string>
@@ -4603,7 +4603,7 @@ WHERE {
 <string lang="nl">Toon de hoofdsteden van alle landen waardoor de Himalaya loopt.</string>
 <string lang="ro">Dă-mi toate țările traversate de Himalaya și capitalele lor.</string>
 <keywords lang="en">countries Himalayas run through, capitals</keywords>
-<keywords lang="zh">国家喜马拉雅山脉运行通过, 资金</keywords>
+<keywords lang="zh">国家喜马拉雅山脉运行通过, 首都</keywords>
 <keywords lang="de">Länder, erstrecken, Himalaya, Haupstadt</keywords>
 <keywords lang="es">capital de países, atraviesa el Himalaya</keywords>
 <keywords lang="it">capitali, stati attraversati dall'Himalaya</keywords>
@@ -4832,7 +4832,7 @@ OFFSET 0 LIMIT 1</query>
 <link entity="木星" lang="zh">http://dbpedia.org/resource/木星</link>
 <link entity="Jupiter" lang="en">http://dbpedia.org/resource/Jupiter</link>
 <string lang="en">How heavy is Jupiter's lightest moon?</string>
-<string lang="zh">木星最轻的卫星有多重？</string>
+<string lang="zh">木星最轻的卫星的重量是多少？</string>
 <string lang="de">Wie schwer ist Jupiters leichtester Mond?</string>
 <string lang="es">¿Cuánto pesa el satélite más ligero de Júpiter?</string>
 <string lang="it">¿Cuánto pesa il satellite più leggero di Giove?</string>
@@ -5084,7 +5084,7 @@ WHERE {
 </question>
 <question aggregation="true" answertype="resource" id="24" onlydbo="false">
 <string lang="en">Who are the four youngest MVP basketball players?</string>
-<string lang="zh">谁是第四年轻的MVP的篮球运动员？</string>
+<string lang="zh">谁是第四年轻的MVP篮球运动员？</string>
 <string lang="de">Wer sind die vier jüngsten MVP Baskettballspieler?</string>
 <string lang="es">¿Cuáles son los cuatro jugadores de baloncesto de categoría MVP más jóvenes?</string>
 <string lang="it">Chi sono i quattro più giovani giocatori di maggior valore (MVP)?</string>
